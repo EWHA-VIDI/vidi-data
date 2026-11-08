@@ -1,0 +1,16 @@
+cat >> .gitignore << 'EOF'
+
+# 데이터 (대용량/개인정보 데이터는 올리지 않는다)
+data/**
+!data/**/
+!data/**/.gitkeep
+*.csv
+*.xlsx
+*.parquet
+*.pkl
+*.zip
+
+# IDE
+.idea/
+.vscode/
+EOF
