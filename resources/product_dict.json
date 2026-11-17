@@ -1,0 +1,2587 @@
+[
+  {
+    "product_id": "P0001",
+    "product_name": "1025 독도 토너",
+    "name_needs_brand": false,
+    "brand_id": "B001",
+    "brand": "라운드랩",
+    "brand_aliases": [
+      {
+        "text": "ROUND LAB",
+        "verified": true,
+        "needs_context": false,
+        "evidence": "https://skinsli.com/products/round-lab-1025-dokdo-toner-300ml"
+      }
+    ],
+    "line": "1025 독도",
+    "aliases": [
+      {
+        "text": "독도 토너",
+        "verified": false,
+        "needs_brand": false
+      }
+    ],
+    "category": "toner",
+    "awareness_tier": "유명",
+    "awareness_basis": "출시가 오래됐고 토너 추천 영상·리뷰 사이트에 반복 등장한다",
+    "awareness_source": "작성자 판단",
+    "verify_url": "https://unpa.me/reviews/46522",
+    "release_ym": null,
+    "relaunch_ym": null,
+    "release_source": null,
+    "concerns": [],
+    "concern_evidence": [],
+    "concern_note": null,
+    "status": "active",
+    "added_on": "2026-11-18",
+    "added_in": "v0.1",
+    "notes": null
+  },
+  {
+    "product_id": "P0002",
+    "product_name": "어성초 77 수딩 토너",
+    "name_needs_brand": false,
+    "brand_id": "B002",
+    "brand": "아누아",
+    "brand_aliases": [
+      {
+        "text": "ANUA",
+        "verified": true,
+        "needs_context": false,
+        "evidence": "https://unpa.me/reviews/288499"
+      }
+    ],
+    "line": "어성초",
+    "aliases": [
+      {
+        "text": "어성초 77 토너",
+        "verified": false,
+        "needs_brand": false
+      },
+      {
+        "text": "어성초 토너",
+        "verified": true,
+        "needs_brand": true,
+        "evidence": "https://glowpick.com/products/117611/expression?expressionId=163",
+        "note": "아비브 어성초 카밍 토너 등 다른 어성초 토너와 겹친다"
+      }
+    ],
+    "category": "toner",
+    "awareness_tier": "유명",
+    "awareness_basis": "토너 비교 영상·리뷰 사이트에 반복 등장한다",
+    "awareness_source": "작성자 판단",
+    "verify_url": "https://unpa.me/reviews/288499",
+    "release_ym": null,
+    "relaunch_ym": null,
+    "release_source": null,
+    "concerns": [],
+    "concern_evidence": [],
+    "concern_note": null,
+    "status": "active",
+    "added_on": "2026-11-18",
+    "added_in": "v0.1",
+    "notes": null
+  },
+  {
+    "product_id": "P0003",
+    "product_name": "다이브인 저분자 히알루론산 토너",
+    "name_needs_brand": false,
+    "brand_id": "B003",
+    "brand": "토리든",
+    "brand_aliases": [
+      {
+        "text": "Torriden",
+        "verified": true,
+        "needs_context": false,
+        "evidence": "https://www.mirai-skin.com/ko/products/torriden-dive-in-low-molecular-hyaluronic-acid-cleansing-foam-150ml"
+      }
+    ],
+    "line": "다이브인",
+    "aliases": [
+      {
+        "text": "다이브인 토너",
+        "verified": false,
+        "needs_brand": false
+      }
+    ],
+    "category": "toner",
+    "awareness_tier": "중간",
+    "awareness_basis": "브랜드는 유명하지만 이 라인의 대표 제품은 세럼이다",
+    "awareness_source": "작성자 판단",
+    "verify_url": "https://www.glowpick.com/brands/5996",
+    "release_ym": null,
+    "relaunch_ym": null,
+    "release_source": null,
+    "concerns": [],
+    "concern_evidence": [],
+    "concern_note": null,
+    "status": "active",
+    "added_on": "2026-11-18",
+    "added_in": "v0.1",
+    "notes": null
+  },
+  {
+    "product_id": "P0004",
+    "product_name": "마다가스카르 센텔라 토닝 토너",
+    "name_needs_brand": false,
+    "brand_id": "B004",
+    "brand": "스킨1004",
+    "brand_aliases": [
+      {
+        "text": "SKIN1004",
+        "verified": true,
+        "needs_context": false,
+        "evidence": "https://www.mirai-skin.com/ko/collections/skin1004"
+      },
+      {
+        "text": "스킨천사",
+        "verified": true,
+        "needs_context": false,
+        "evidence": "https://unpa.me/reviews/415830"
+      }
+    ],
+    "line": "마다가스카르 센텔라",
+    "aliases": [
+      {
+        "text": "센텔라 토닝 토너",
+        "verified": false,
+        "needs_brand": false
+      }
+    ],
+    "category": "toner",
+    "awareness_tier": "중간",
+    "awareness_basis": "브랜드 대표 제품은 앰플이고 토너는 상대적으로 덜 언급될 것으로 본다",
+    "awareness_source": "작성자 판단",
+    "verify_url": "https://www.mirai-skin.com/ko/products/skin1004-madagascar-centella-toning-toner-210ml",
+    "release_ym": null,
+    "relaunch_ym": null,
+    "release_source": null,
+    "concerns": [],
+    "concern_evidence": [],
+    "concern_note": null,
+    "status": "active",
+    "added_on": "2026-11-18",
+    "added_in": "v0.1",
+    "notes": null
+  },
+  {
+    "product_id": "P0005",
+    "product_name": "티트리 시카 수딩 토너",
+    "name_needs_brand": false,
+    "brand_id": "B005",
+    "brand": "브링그린",
+    "brand_aliases": [
+      {
+        "text": "BRING GREEN",
+        "verified": false,
+        "needs_context": false
+      }
+    ],
+    "line": "티트리 시카",
+    "aliases": [
+      {
+        "text": "티트리 시카 토너",
+        "verified": false,
+        "needs_brand": false
+      }
+    ],
+    "category": "toner",
+    "awareness_tier": "중간",
+    "awareness_basis": "리뷰 사이트에 리뷰가 꾸준하나 상위 랭킹 여부는 확인하지 못했다",
+    "awareness_source": "작성자 판단",
+    "verify_url": "https://unpa.me/reviews/2473",
+    "release_ym": null,
+    "relaunch_ym": null,
+    "release_source": null,
+    "concerns": [
+      "acne"
+    ],
+    "concern_evidence": [
+      "https://www.hwahae.com/blog/?p=2222"
+    ],
+    "concern_note": "화해 블로그 여드름 추천 목록(2025-08-21)에 포함",
+    "status": "active",
+    "added_on": "2026-11-18",
+    "added_in": "v0.1",
+    "notes": null
+  },
+  {
+    "product_id": "P0006",
+    "product_name": "3번 결광 가득 에센스 토너",
+    "name_needs_brand": false,
+    "brand_id": "B006",
+    "brand": "넘버즈인",
+    "brand_aliases": [
+      {
+        "text": "numbuzin",
+        "verified": true,
+        "needs_context": false,
+        "evidence": "https://unpa.me/reviews/102148"
+      }
+    ],
+    "line": "3번",
+    "aliases": [
+      {
+        "text": "3번 토너",
+        "verified": false,
+        "needs_brand": false
+      },
+      {
+        "text": "결광 토너",
+        "verified": false,
+        "needs_brand": false
+      }
+    ],
+    "category": "toner",
+    "awareness_tier": "중간",
+    "awareness_basis": "넘버즈인 번호 라인은 알려져 있으나 3번 토너 단독 인지도는 판단하기 어렵다",
+    "awareness_source": "작성자 판단",
+    "verify_url": "https://unpa.me/reviews/102148",
+    "release_ym": null,
+    "relaunch_ym": null,
+    "release_source": null,
+    "concerns": [],
+    "concern_evidence": [],
+    "concern_note": null,
+    "status": "active",
+    "added_on": "2026-11-18",
+    "added_in": "v0.1",
+    "notes": "번호 라인(1~6번)이 있어 '3번'만 나온 댓글은 라인 언급으로 처리한다"
+  },
+  {
+    "product_id": "P0007",
+    "product_name": "어성초 카밍 토너 스킨 부스터",
+    "name_needs_brand": false,
+    "brand_id": "B007",
+    "brand": "아비브",
+    "brand_aliases": [
+      {
+        "text": "Abib",
+        "verified": true,
+        "needs_context": false,
+        "evidence": "https://unpa.me/reviews/37609"
+      }
+    ],
+    "line": "어성초",
+    "aliases": [
+      {
+        "text": "어성초 카밍 토너",
+        "verified": false,
+        "needs_brand": false
+      }
+    ],
+    "category": "toner",
+    "awareness_tier": "중간",
+    "awareness_basis": "글로우픽 리뷰 380개(200ml), 1,000개 기준 미달",
+    "awareness_source": "글로우픽 브랜드 페이지(2026-11 검색 결과)",
+    "verify_url": "https://unpa.me/reviews/37609",
+    "release_ym": null,
+    "relaunch_ym": null,
+    "release_source": null,
+    "concerns": [],
+    "concern_evidence": [],
+    "concern_note": null,
+    "status": "active",
+    "added_on": "2026-11-18",
+    "added_in": "v0.1",
+    "notes": null
+  },
+  {
+    "product_id": "P0008",
+    "product_name": "순정 약산성 5.5 진정 토너",
+    "name_needs_brand": false,
+    "brand_id": "B008",
+    "brand": "에뛰드",
+    "brand_aliases": [
+      {
+        "text": "ETUDE",
+        "verified": true,
+        "needs_context": false,
+        "evidence": "https://skinsli.com/products/etude-slightly-acidic-55-soothing-toner-500ml"
+      }
+    ],
+    "line": "순정",
+    "aliases": [
+      {
+        "text": "순정 토너",
+        "verified": false,
+        "needs_brand": false
+      },
+      {
+        "text": "순정 약산성 토너",
+        "verified": false,
+        "needs_brand": false
+      }
+    ],
+    "category": "toner",
+    "awareness_tier": "중간",
+    "awareness_basis": "출시가 오래된 제품이나 최근 언급량은 판단 근거가 없다",
+    "awareness_source": "작성자 판단",
+    "verify_url": "https://unpa.me/reviews/212",
+    "release_ym": null,
+    "relaunch_ym": null,
+    "release_source": null,
+    "concerns": [],
+    "concern_evidence": [],
+    "concern_note": null,
+    "status": "active",
+    "added_on": "2026-11-18",
+    "added_in": "v0.1",
+    "notes": null
+  },
+  {
+    "product_id": "P0009",
+    "product_name": "어린쑥 수분 진정수",
+    "name_needs_brand": false,
+    "brand_id": "B009",
+    "brand": "한율",
+    "brand_aliases": [
+      {
+        "text": "HANYUL",
+        "verified": false,
+        "needs_context": false
+      }
+    ],
+    "line": "어린쑥",
+    "aliases": [
+      {
+        "text": "어린쑥 진정수",
+        "verified": false,
+        "needs_brand": false
+      }
+    ],
+    "category": "toner",
+    "awareness_tier": "저언급",
+    "awareness_basis": "리뷰 사이트 리뷰가 적고 토너 추천 영상에서 대표 제품으로 보기 어렵다",
+    "awareness_source": "작성자 판단",
+    "verify_url": "https://unpa.me/reviews/69203",
+    "release_ym": null,
+    "relaunch_ym": null,
+    "release_source": null,
+    "concerns": [],
+    "concern_evidence": [],
+    "concern_note": null,
+    "status": "active",
+    "added_on": "2026-11-18",
+    "added_in": "v0.1",
+    "notes": null
+  },
+  {
+    "product_id": "P0010",
+    "product_name": "다이브인 저분자 히알루론산 세럼",
+    "name_needs_brand": false,
+    "brand_id": "B003",
+    "brand": "토리든",
+    "brand_aliases": [
+      {
+        "text": "Torriden",
+        "verified": true,
+        "needs_context": false,
+        "evidence": "https://www.mirai-skin.com/ko/products/torriden-dive-in-low-molecular-hyaluronic-acid-cleansing-foam-150ml"
+      }
+    ],
+    "line": "다이브인",
+    "aliases": [
+      {
+        "text": "다이브인 세럼",
+        "verified": true,
+        "needs_brand": false,
+        "evidence": "https://www.glowpick.com/products/114977/reviews"
+      }
+    ],
+    "category": "serum",
+    "awareness_tier": "유명",
+    "awareness_basis": "브랜드 대표 제품으로 리뷰 사이트에 '인생 수분세럼' 등 반복 언급이 있다",
+    "awareness_source": "작성자 판단",
+    "verify_url": "https://m.11st.co.kr/products/9497584992",
+    "release_ym": null,
+    "relaunch_ym": null,
+    "release_source": null,
+    "concerns": [],
+    "concern_evidence": [],
+    "concern_note": null,
+    "status": "active",
+    "added_on": "2026-11-18",
+    "added_in": "v0.1",
+    "notes": "'토리든 세럼'은 밸런스풀 시카 컨트롤 세럼과 겹쳐 별칭에서 뺐다"
+  },
+  {
+    "product_id": "P0011",
+    "product_name": "마다가스카르 센텔라 앰플",
+    "name_needs_brand": false,
+    "brand_id": "B004",
+    "brand": "스킨1004",
+    "brand_aliases": [
+      {
+        "text": "SKIN1004",
+        "verified": true,
+        "needs_context": false,
+        "evidence": "https://www.mirai-skin.com/ko/collections/skin1004"
+      },
+      {
+        "text": "스킨천사",
+        "verified": true,
+        "needs_context": false,
+        "evidence": "https://unpa.me/reviews/415830"
+      }
+    ],
+    "line": "마다가스카르 센텔라",
+    "aliases": [
+      {
+        "text": "센텔라 앰플",
+        "verified": false,
+        "needs_brand": true,
+        "note": "'센텔라'는 성분명이라 다른 브랜드 센텔라 앰플과 겹친다"
+      }
+    ],
+    "category": "serum",
+    "awareness_tier": "유명",
+    "awareness_basis": "브랜드 대표 제품이다",
+    "awareness_source": "작성자 판단",
+    "verify_url": "https://www.mirai-skin.com/ko/products/skin1004-madagascar-centella-ampoule-55ml",
+    "release_ym": null,
+    "relaunch_ym": null,
+    "release_source": null,
+    "concerns": [],
+    "concern_evidence": [],
+    "concern_note": null,
+    "status": "active",
+    "added_on": "2026-11-18",
+    "added_in": "v0.1",
+    "notes": "같은 라인에 테카 앰플, 포어마이징 프레쉬 앰플, 프로바이오 시카 앰플 등 변형 제품이 있다"
+  },
+  {
+    "product_id": "P0012",
+    "product_name": "청귤 비타C 잡티케어 세럼",
+    "name_needs_brand": false,
+    "brand_id": "B010",
+    "brand": "구달",
+    "brand_aliases": [
+      {
+        "text": "goodal",
+        "verified": true,
+        "needs_context": false,
+        "evidence": "https://wooltariusa.com/zh/collections/w-beauty_toner/products/goodal-green-tangerine-vita-c-dark-spot-care-serum-alpha-40ml"
+      }
+    ],
+    "line": "청귤 비타C",
+    "aliases": [
+      {
+        "text": "청귤 세럼",
+        "verified": true,
+        "needs_brand": false,
+        "evidence": "https://wooltariusa.com/collections/%EB%B7%B0%ED%8B%B0%EB%B7%B0%ED%8B%B0/products/renew-green-tangerine-vita-c-dark-spot-care-serum-40ml"
+      },
+      {
+        "text": "청귤 비타C 세럼",
+        "verified": false,
+        "needs_brand": false
+      }
+    ],
+    "category": "serum",
+    "awareness_tier": "유명",
+    "awareness_basis": "브랜드 대표 라인이고 리뉴얼(알파, 플러스)이 거듭될 만큼 오래 판매됐다",
+    "awareness_source": "작성자 판단",
+    "verify_url": "https://unpa.me/reviews/328582",
+    "release_ym": null,
+    "relaunch_ym": null,
+    "release_source": null,
+    "concerns": [],
+    "concern_evidence": [],
+    "concern_note": null,
+    "status": "active",
+    "added_on": "2026-11-18",
+    "added_in": "v0.1",
+    "notes": "리뉴얼 제품(잡티 케어 세럼 알파, 잡티 세럼 플러스)을 같은 ID로 묶을지 팀 결정 필요"
+  },
+  {
+    "product_id": "P0013",
+    "product_name": "갈락토미 나이아신 에센스",
+    "name_needs_brand": false,
+    "brand_id": "B011",
+    "brand": "마녀공장",
+    "brand_aliases": [
+      {
+        "text": "manyo",
+        "verified": true,
+        "needs_context": false,
+        "evidence": "https://shop.coupang.com/manyo"
+      }
+    ],
+    "line": "갈락토미",
+    "aliases": [
+      {
+        "text": "갈락토미 에센스",
+        "verified": false,
+        "needs_brand": false
+      }
+    ],
+    "category": "serum",
+    "awareness_tier": "중간",
+    "awareness_basis": "브랜드는 알려져 있으나 이 제품 단독 언급량은 판단 근거가 없다",
+    "awareness_source": "작성자 판단",
+    "verify_url": "https://unpa.me/reviews/252039",
+    "release_ym": null,
+    "relaunch_ym": null,
+    "release_source": null,
+    "concerns": [],
+    "concern_evidence": [],
+    "concern_note": null,
+    "status": "active",
+    "added_on": "2026-11-18",
+    "added_in": "v0.1",
+    "notes": "후속 제품 '갈락 나이아신 3.0 에센스'가 있다"
+  },
+  {
+    "product_id": "P0014",
+    "product_name": "어드밴스드 스네일 96 뮤신 파워 에센스",
+    "name_needs_brand": false,
+    "brand_id": "B012",
+    "brand": "코스알엑스",
+    "brand_aliases": [
+      {
+        "text": "COSRX",
+        "verified": true,
+        "needs_context": false,
+        "evidence": "https://cosrx.com/products/advanced-snail-96-mucin-power-essence"
+      }
+    ],
+    "line": "어드밴스드 스네일",
+    "aliases": [
+      {
+        "text": "스네일 96 에센스",
+        "verified": false,
+        "needs_brand": false
+      },
+      {
+        "text": "스네일 에센스",
+        "verified": false,
+        "needs_brand": true
+      },
+      {
+        "text": "달팽이 에센스",
+        "verified": true,
+        "needs_brand": true,
+        "evidence": "https://www.haniseoul.com/ko/travels/korea/kbeauty-serum-snail-vs-dive-in",
+        "note": "같은 브랜드 래디언스 듀얼 에센스, 다른 브랜드 달팽이 에센스와 겹친다"
+      }
+    ],
+    "category": "serum",
+    "awareness_tier": "유명",
+    "awareness_basis": "브랜드 대표 제품이다",
+    "awareness_source": "작성자 판단",
+    "verify_url": "https://cosrx.com/products/advanced-snail-96-mucin-power-essence",
+    "release_ym": null,
+    "relaunch_ym": null,
+    "release_source": null,
+    "concerns": [],
+    "concern_evidence": [],
+    "concern_note": null,
+    "status": "active",
+    "added_on": "2026-11-18",
+    "added_in": "v0.1",
+    "notes": null
+  },
+  {
+    "product_id": "P0015",
+    "product_name": "리들샷 100",
+    "name_needs_brand": false,
+    "brand_id": "B013",
+    "brand": "브이티코스메틱",
+    "brand_aliases": [
+      {
+        "text": "VTcosmetics",
+        "verified": true,
+        "needs_context": false,
+        "evidence": "https://unpa.me/reviews/421066"
+      },
+      {
+        "text": "브이티",
+        "verified": false,
+        "needs_context": true
+      },
+      {
+        "text": "VT",
+        "verified": false,
+        "needs_context": true
+      }
+    ],
+    "line": "리들샷",
+    "aliases": [
+      {
+        "text": "리들샷 100",
+        "verified": true,
+        "needs_brand": false,
+        "evidence": "https://unpa.me/reviews/421066"
+      }
+    ],
+    "category": "serum",
+    "awareness_tier": "유명",
+    "awareness_basis": "리뷰 사이트에 최근 30일 리뷰가 많고 변형 제품(프로 시카, 콜라겐, 300)이 계속 나온다",
+    "awareness_source": "작성자 판단",
+    "verify_url": "https://unpa.me/reviews/421066",
+    "release_ym": null,
+    "relaunch_ym": null,
+    "release_source": null,
+    "concerns": [],
+    "concern_evidence": [],
+    "concern_note": null,
+    "status": "active",
+    "added_on": "2026-11-18",
+    "added_in": "v0.1",
+    "notes": "'리들샷'만 나오면 라인 언급(100/300/프로 시카/콜라겐 구분 불가)으로 처리한다"
+  },
+  {
+    "product_id": "P0016",
+    "product_name": "레티놀 시카 흔적 앰플",
+    "name_needs_brand": false,
+    "brand_id": "B014",
+    "brand": "이니스프리",
+    "brand_aliases": [
+      {
+        "text": "innisfree",
+        "verified": false,
+        "needs_context": false
+      }
+    ],
+    "line": "레티놀 시카",
+    "aliases": [
+      {
+        "text": "레티놀 시카 앰플",
+        "verified": false,
+        "needs_brand": false
+      },
+      {
+        "text": "흔적 앰플",
+        "verified": false,
+        "needs_brand": true
+      }
+    ],
+    "category": "serum",
+    "awareness_tier": "중간",
+    "awareness_basis": "리뷰 사이트 리뷰가 꾸준하나 상위 랭킹 여부는 확인하지 못했다",
+    "awareness_source": "작성자 판단",
+    "verify_url": "https://unpa.me/reviews/38597",
+    "release_ym": null,
+    "relaunch_ym": null,
+    "release_source": null,
+    "concerns": [],
+    "concern_evidence": [],
+    "concern_note": null,
+    "status": "active",
+    "added_on": "2026-11-18",
+    "added_in": "v0.1",
+    "notes": "'레티놀 시카 모공 흔적 앰플'이 따로 있어 긴 이름 우선 매칭이 필요하다"
+  },
+  {
+    "product_id": "P0017",
+    "product_name": "불가리안 로즈 블레미쉬 케어 세럼",
+    "name_needs_brand": false,
+    "brand_id": "B015",
+    "brand": "아이소이",
+    "brand_aliases": [
+      {
+        "text": "isoi",
+        "verified": false,
+        "needs_context": false
+      }
+    ],
+    "line": "불가리안 로즈",
+    "aliases": [
+      {
+        "text": "불가리안 로즈 세럼",
+        "verified": false,
+        "needs_brand": false
+      },
+      {
+        "text": "잡티세럼",
+        "verified": true,
+        "needs_brand": true,
+        "evidence": "https://unpa.me/reviews/56566",
+        "note": "일반 명사(잡티 세럼)와 같다"
+      }
+    ],
+    "category": "serum",
+    "awareness_tier": "저언급",
+    "awareness_basis": "출시가 오래된 제품으로 최근 추천 영상에서 대표 제품으로 보기 어렵다",
+    "awareness_source": "작성자 판단",
+    "verify_url": "https://unpa.me/reviews/56566",
+    "release_ym": null,
+    "relaunch_ym": null,
+    "release_source": null,
+    "concerns": [],
+    "concern_evidence": [],
+    "concern_note": null,
+    "status": "active",
+    "added_on": "2026-11-18",
+    "added_in": "v0.1",
+    "notes": "현재 판매명은 '블레미쉬 케어 세럼Ⅱ'로 보인다"
+  },
+  {
+    "product_id": "P0018",
+    "product_name": "노스카나인 트러블 세럼",
+    "name_needs_brand": false,
+    "brand_id": "B016",
+    "brand": "파티온",
+    "brand_aliases": [
+      {
+        "text": "FATION",
+        "verified": false,
+        "needs_context": false
+      }
+    ],
+    "line": "노스카나인",
+    "aliases": [
+      {
+        "text": "노스카나인 세럼",
+        "verified": false,
+        "needs_brand": false
+      }
+    ],
+    "category": "serum",
+    "awareness_tier": "중간",
+    "awareness_basis": "글로우픽 리뷰 653개(30ml), 300~1,000개 구간",
+    "awareness_source": "글로우픽 브랜드 페이지(2026-11 검색 결과)",
+    "verify_url": "https://unpa.me/reviews/311541",
+    "release_ym": null,
+    "relaunch_ym": null,
+    "release_source": null,
+    "concerns": [
+      "acne"
+    ],
+    "concern_evidence": [
+      "https://unpa.me/reviews/441123"
+    ],
+    "concern_note": "리뷰에서 여드름 피부 사용 맥락으로 언급",
+    "status": "active",
+    "added_on": "2026-11-18",
+    "added_in": "v0.1",
+    "notes": "'노스카나인 트러블 모공탄력 세럼'이 따로 있다"
+  },
+  {
+    "product_id": "P0019",
+    "product_name": "더 리얼 노니 에너지 앰플",
+    "name_needs_brand": false,
+    "brand_id": "B017",
+    "brand": "셀리맥스",
+    "brand_aliases": [
+      {
+        "text": "celimax",
+        "verified": false,
+        "needs_context": false
+      }
+    ],
+    "line": "더 리얼 노니",
+    "aliases": [
+      {
+        "text": "노니 앰플",
+        "verified": false,
+        "needs_brand": true,
+        "note": "'노니'는 원료명이다"
+      }
+    ],
+    "category": "serum",
+    "awareness_tier": "저언급",
+    "awareness_basis": "리뷰 사이트에서 이 제품 본문 리뷰를 찾기 어려웠다",
+    "awareness_source": "작성자 판단",
+    "verify_url": "https://unpa.me/reviews/199081",
+    "release_ym": null,
+    "relaunch_ym": null,
+    "release_source": null,
+    "concerns": [],
+    "concern_evidence": [],
+    "concern_note": null,
+    "status": "active",
+    "added_on": "2026-11-18",
+    "added_in": "v0.1",
+    "notes": null
+  },
+  {
+    "product_id": "P0020",
+    "product_name": "리얼 히알루로닉 블루 100 앰플",
+    "name_needs_brand": false,
+    "brand_id": "B018",
+    "brand": "웰라쥬",
+    "brand_aliases": [
+      {
+        "text": "Wellage",
+        "verified": true,
+        "needs_context": false,
+        "evidence": "https://skinsli.com/products/wellage-real-hyaluronic-blue-100-ampoules-30ml"
+      }
+    ],
+    "line": "리얼 히알루로닉",
+    "aliases": [
+      {
+        "text": "블루 100 앰플",
+        "verified": false,
+        "needs_brand": false
+      },
+      {
+        "text": "블루앰플",
+        "verified": false,
+        "needs_brand": true
+      }
+    ],
+    "category": "serum",
+    "awareness_tier": "중간",
+    "awareness_basis": "리뷰 사이트에 리뷰가 꾸준하다",
+    "awareness_source": "작성자 판단",
+    "verify_url": "https://unpa.me/reviews/375785",
+    "release_ym": null,
+    "relaunch_ym": null,
+    "release_source": null,
+    "concerns": [],
+    "concern_evidence": [],
+    "concern_note": null,
+    "status": "active",
+    "added_on": "2026-11-18",
+    "added_in": "v0.1",
+    "notes": null
+  },
+  {
+    "product_id": "P0021",
+    "product_name": "화이트 트러플 퍼스트 스프레이 세럼",
+    "name_needs_brand": false,
+    "brand_id": "B019",
+    "brand": "달바",
+    "brand_aliases": [
+      {
+        "text": "d'Alba",
+        "verified": false,
+        "needs_context": false
+      }
+    ],
+    "line": "화이트 트러플",
+    "aliases": [
+      {
+        "text": "스프레이 세럼",
+        "verified": false,
+        "needs_brand": true
+      },
+      {
+        "text": "미스트 세럼",
+        "verified": false,
+        "needs_brand": true
+      }
+    ],
+    "category": "serum",
+    "awareness_tier": "중간",
+    "awareness_basis": "브랜드 대표 제품이나 최근 언급량은 판단 근거가 없다",
+    "awareness_source": "작성자 판단",
+    "verify_url": "https://unpa.me/reviews/70336",
+    "release_ym": null,
+    "relaunch_ym": null,
+    "release_source": null,
+    "concerns": [],
+    "concern_evidence": [],
+    "concern_note": null,
+    "status": "active",
+    "added_on": "2026-11-18",
+    "added_in": "v0.1",
+    "notes": null
+  },
+  {
+    "product_id": "P0022",
+    "product_name": "아토베리어365 크림",
+    "name_needs_brand": false,
+    "brand_id": "B020",
+    "brand": "에스트라",
+    "brand_aliases": [
+      {
+        "text": "AESTURA",
+        "verified": false,
+        "needs_context": false
+      }
+    ],
+    "line": "아토베리어365",
+    "aliases": [
+      {
+        "text": "아토베리어 크림",
+        "verified": true,
+        "needs_brand": false,
+        "evidence": "https://glowpick.com/products/147139/expression?expressionId=168"
+      },
+      {
+        "text": "아토베리어365",
+        "verified": false,
+        "needs_brand": false
+      }
+    ],
+    "category": "cream",
+    "awareness_tier": "유명",
+    "awareness_basis": "얼루어 코리아 기사가 민감 피부용 크림으로 '여전히 첫손에 꼽히는' 제품으로 소개",
+    "awareness_source": "얼루어 코리아 2026-10-01 기사",
+    "verify_url": "https://unpa.me/reviews/56568",
+    "release_ym": null,
+    "relaunch_ym": "2024-01",
+    "release_source": "아모레퍼시픽 보도자료 2024-01-03(출시 후 첫 리뉴얼). 최초 출시 연도는 자료가 엇갈려 비워 둔다",
+    "concerns": [],
+    "concern_evidence": [],
+    "concern_note": null,
+    "status": "active",
+    "added_on": "2026-11-18",
+    "added_in": "v0.1",
+    "notes": "'아토베리어 크림 MD'(피부과 전용)가 따로 있다. '아토베리어365'만 나온 댓글은 라인 언급일 수 있다"
+  },
+  {
+    "product_id": "P0023",
+    "product_name": "레드 블레미쉬 클리어 수딩 크림",
+    "name_needs_brand": false,
+    "brand_id": "B021",
+    "brand": "닥터지",
+    "brand_aliases": [
+      {
+        "text": "Dr.G",
+        "verified": false,
+        "needs_context": false
+      }
+    ],
+    "line": "레드 블레미쉬",
+    "aliases": [
+      {
+        "text": "레드 블레미쉬 수딩 크림",
+        "verified": false,
+        "needs_brand": false
+      },
+      {
+        "text": "레드블레미쉬 크림",
+        "verified": false,
+        "needs_brand": true
+      }
+    ],
+    "category": "cream",
+    "awareness_tier": "유명",
+    "awareness_basis": "브랜드 대표 제품이다",
+    "awareness_source": "작성자 판단",
+    "verify_url": "https://unpa.me/reviews/5837",
+    "release_ym": null,
+    "relaunch_ym": null,
+    "release_source": null,
+    "concerns": [
+      "acne"
+    ],
+    "concern_evidence": [
+      "https://www.costco.co.kr/LotionCream/p/638710"
+    ],
+    "concern_note": "판매처 상세에 대상 피부로 '여드름피부' 표기",
+    "status": "active",
+    "added_on": "2026-11-18",
+    "added_in": "v0.1",
+    "notes": "'레드 블레미쉬 클리어 크림', '수딩 크림 EX', '시카 S 크림' 등 비슷한 이름이 많다"
+  },
+  {
+    "product_id": "P0024",
+    "product_name": "다이브인 저분자 히알루론산 수딩 크림",
+    "name_needs_brand": false,
+    "brand_id": "B003",
+    "brand": "토리든",
+    "brand_aliases": [
+      {
+        "text": "Torriden",
+        "verified": true,
+        "needs_context": false,
+        "evidence": "https://www.mirai-skin.com/ko/products/torriden-dive-in-low-molecular-hyaluronic-acid-cleansing-foam-150ml"
+      }
+    ],
+    "line": "다이브인",
+    "aliases": [
+      {
+        "text": "다이브인 수딩 크림",
+        "verified": false,
+        "needs_brand": false
+      },
+      {
+        "text": "다이브인 크림",
+        "verified": false,
+        "needs_brand": true,
+        "note": "같은 라인 '저분자 히알루론산 크림'과 겹친다"
+      }
+    ],
+    "category": "cream",
+    "awareness_tier": "중간",
+    "awareness_basis": "브랜드는 유명하나 크림 단독 언급량은 판단 근거가 없다",
+    "awareness_source": "작성자 판단",
+    "verify_url": "https://www.glowpick.com/brands/5996",
+    "release_ym": null,
+    "relaunch_ym": null,
+    "release_source": null,
+    "concerns": [],
+    "concern_evidence": [],
+    "concern_note": null,
+    "status": "active",
+    "added_on": "2026-11-18",
+    "added_in": "v0.1",
+    "notes": null
+  },
+  {
+    "product_id": "P0025",
+    "product_name": "세라마이드 아토 집중 크림",
+    "name_needs_brand": false,
+    "brand_id": "B022",
+    "brand": "일리윤",
+    "brand_aliases": [
+      {
+        "text": "ILLIYOON",
+        "verified": true,
+        "needs_context": false,
+        "evidence": "https://unpa.me/reviews/372630"
+      }
+    ],
+    "line": "세라마이드 아토",
+    "aliases": [
+      {
+        "text": "아토 집중 크림",
+        "verified": false,
+        "needs_brand": false
+      },
+      {
+        "text": "세라마이드 크림",
+        "verified": false,
+        "needs_brand": true
+      }
+    ],
+    "category": "cream",
+    "awareness_tier": "중간",
+    "awareness_basis": "대용량 보습 크림으로 리뷰가 꾸준하다",
+    "awareness_source": "작성자 판단",
+    "verify_url": "https://unpa.me/reviews/372630",
+    "release_ym": null,
+    "relaunch_ym": null,
+    "release_source": null,
+    "concerns": [],
+    "concern_evidence": [],
+    "concern_note": null,
+    "status": "active",
+    "added_on": "2026-11-18",
+    "added_in": "v0.1",
+    "notes": null
+  },
+  {
+    "product_id": "P0026",
+    "product_name": "마데카 크림",
+    "name_needs_brand": true,
+    "brand_id": "B023",
+    "brand": "센텔리안24",
+    "brand_aliases": [
+      {
+        "text": "CENTELLIAN24",
+        "verified": false,
+        "needs_context": false
+      }
+    ],
+    "line": "마데카",
+    "aliases": [],
+    "category": "cream",
+    "awareness_tier": "중간",
+    "awareness_basis": "글로우픽 리뷰 454개, 1,000개 기준 미달",
+    "awareness_source": "글로우픽 브랜드 페이지(2026-11 검색 결과)",
+    "verify_url": "https://www.glowpick.com/brands/2157",
+    "release_ym": null,
+    "relaunch_ym": null,
+    "release_source": null,
+    "concerns": [],
+    "concern_evidence": [],
+    "concern_note": null,
+    "status": "active",
+    "added_on": "2026-11-18",
+    "added_in": "v0.1",
+    "notes": "글로우픽 표기는 '더 마데카 크림'. 타임 리버스, 골든 등 변형이 많아 긴 이름 우선 매칭이 필요하다"
+  },
+  {
+    "product_id": "P0027",
+    "product_name": "어린쑥 수분진정 크림",
+    "name_needs_brand": false,
+    "brand_id": "B009",
+    "brand": "한율",
+    "brand_aliases": [
+      {
+        "text": "HANYUL",
+        "verified": false,
+        "needs_context": false
+      }
+    ],
+    "line": "어린쑥",
+    "aliases": [
+      {
+        "text": "어린쑥 크림",
+        "verified": false,
+        "needs_brand": false
+      }
+    ],
+    "category": "cream",
+    "awareness_tier": "저언급",
+    "awareness_basis": "리뷰 사이트에서 이 제품 본문 리뷰를 찾기 어려웠다",
+    "awareness_source": "작성자 판단",
+    "verify_url": "https://unpa.me/reviews/295703",
+    "release_ym": null,
+    "relaunch_ym": null,
+    "release_source": null,
+    "concerns": [],
+    "concern_evidence": [],
+    "concern_note": null,
+    "status": "active",
+    "added_on": "2026-11-18",
+    "added_in": "v0.1",
+    "notes": null
+  },
+  {
+    "product_id": "P0028",
+    "product_name": "아쿠아 스쿠알란 수분크림",
+    "name_needs_brand": false,
+    "brand_id": "B024",
+    "brand": "에스네이처",
+    "brand_aliases": [
+      {
+        "text": "SNATURE",
+        "verified": true,
+        "needs_context": false,
+        "evidence": "https://unpa.me/reviews/325724"
+      }
+    ],
+    "line": "아쿠아 스쿠알란",
+    "aliases": [
+      {
+        "text": "스쿠알란 수분크림",
+        "verified": false,
+        "needs_brand": true
+      }
+    ],
+    "category": "cream",
+    "awareness_tier": "저언급",
+    "awareness_basis": "리뷰 사이트에서 이 제품 본문 리뷰를 찾기 어려웠다",
+    "awareness_source": "작성자 판단",
+    "verify_url": "https://unpa.me/reviews/325724",
+    "release_ym": null,
+    "relaunch_ym": null,
+    "release_source": null,
+    "concerns": [],
+    "concern_evidence": [],
+    "concern_note": null,
+    "status": "active",
+    "added_on": "2026-11-18",
+    "added_in": "v0.1",
+    "notes": null
+  },
+  {
+    "product_id": "P0029",
+    "product_name": "세이프 미 릴리프 모이스처 크림 12",
+    "name_needs_brand": false,
+    "brand_id": "B025",
+    "brand": "메이크프렘",
+    "brand_aliases": [
+      {
+        "text": "make p:rem",
+        "verified": true,
+        "needs_context": false,
+        "evidence": "https://skinsli.com/products/make-prem-juve-defense-mi-caming-tone-up-sunscreen-50ml"
+      }
+    ],
+    "line": "세이프 미",
+    "aliases": [
+      {
+        "text": "세이프미 크림",
+        "verified": false,
+        "needs_brand": false
+      }
+    ],
+    "category": "cream",
+    "awareness_tier": "저언급",
+    "awareness_basis": "리뷰 사이트에서 이 제품 본문 리뷰를 찾기 어려웠다",
+    "awareness_source": "작성자 판단",
+    "verify_url": "https://unpa.me/reviews/33029",
+    "release_ym": null,
+    "relaunch_ym": null,
+    "release_source": null,
+    "concerns": [],
+    "concern_evidence": [],
+    "concern_note": null,
+    "status": "active",
+    "added_on": "2026-11-18",
+    "added_in": "v0.1",
+    "notes": null
+  },
+  {
+    "product_id": "P0030",
+    "product_name": "자작나무 수분 크림",
+    "name_needs_brand": false,
+    "brand_id": "B001",
+    "brand": "라운드랩",
+    "brand_aliases": [
+      {
+        "text": "ROUND LAB",
+        "verified": true,
+        "needs_context": false,
+        "evidence": "https://skinsli.com/products/round-lab-1025-dokdo-toner-300ml"
+      }
+    ],
+    "line": "자작나무",
+    "aliases": [
+      {
+        "text": "자작나무 크림",
+        "verified": false,
+        "needs_brand": false
+      }
+    ],
+    "category": "cream",
+    "awareness_tier": "중간",
+    "awareness_basis": "라인은 알려져 있으나 크림 단독 언급량은 판단 근거가 없다",
+    "awareness_source": "작성자 판단",
+    "verify_url": "https://unpa.me/reviews/101915",
+    "release_ym": null,
+    "relaunch_ym": null,
+    "release_source": null,
+    "concerns": [],
+    "concern_evidence": [],
+    "concern_note": null,
+    "status": "active",
+    "added_on": "2026-11-18",
+    "added_in": "v0.1",
+    "notes": "'포 맨 자작나무 수분 크림'이 따로 있다"
+  },
+  {
+    "product_id": "P0031",
+    "product_name": "시카페어 크림",
+    "name_needs_brand": false,
+    "brand_id": "B026",
+    "brand": "닥터자르트",
+    "brand_aliases": [
+      {
+        "text": "Dr.Jart+",
+        "verified": false,
+        "needs_context": false
+      }
+    ],
+    "line": "시카페어",
+    "aliases": [],
+    "category": "cream",
+    "awareness_tier": "유명",
+    "awareness_basis": "브랜드 대표 제품으로 출시가 오래됐다",
+    "awareness_source": "작성자 판단",
+    "verify_url": "https://unpa.me/reviews/91160",
+    "release_ym": null,
+    "relaunch_ym": null,
+    "release_source": null,
+    "concerns": [],
+    "concern_evidence": [],
+    "concern_note": null,
+    "status": "active",
+    "added_on": "2026-11-18",
+    "added_in": "v0.1",
+    "notes": null
+  },
+  {
+    "product_id": "P0032",
+    "product_name": "인텐시브 크림",
+    "name_needs_brand": true,
+    "brand_id": "B027",
+    "brand": "제로이드",
+    "brand_aliases": [
+      {
+        "text": "ZEROID",
+        "verified": false,
+        "needs_context": false
+      }
+    ],
+    "line": "인텐시브",
+    "aliases": [],
+    "category": "cream",
+    "awareness_tier": "저언급",
+    "awareness_basis": "주로 병원·약국 유통 제품으로 유튜브 후기 언급은 적을 것으로 본다",
+    "awareness_source": "작성자 판단",
+    "verify_url": "https://unpa.me/reviews/312388",
+    "release_ym": null,
+    "relaunch_ym": null,
+    "release_source": null,
+    "concerns": [],
+    "concern_evidence": [],
+    "concern_note": null,
+    "status": "active",
+    "added_on": "2026-11-18",
+    "added_in": "v0.1",
+    "notes": "제품명이 일반 명사라 별칭이 없다. 제품명 자체도 브랜드 동반 시에만 인정한다. '인텐시브 크림 엠디', '인텐시브 오인트 크림'이 따로 있다"
+  },
+  {
+    "product_id": "P0033",
+    "product_name": "자작나무 수분 선크림",
+    "name_needs_brand": false,
+    "brand_id": "B001",
+    "brand": "라운드랩",
+    "brand_aliases": [
+      {
+        "text": "ROUND LAB",
+        "verified": true,
+        "needs_context": false,
+        "evidence": "https://skinsli.com/products/round-lab-1025-dokdo-toner-300ml"
+      }
+    ],
+    "line": "자작나무",
+    "aliases": [
+      {
+        "text": "자작나무 선크림",
+        "verified": false,
+        "needs_brand": false
+      }
+    ],
+    "category": "sun",
+    "awareness_tier": "유명",
+    "awareness_basis": "선크림 비교 영상과 리뷰 사이트에 반복 등장한다",
+    "awareness_source": "작성자 판단",
+    "verify_url": "https://unpa.me/reviews/343909",
+    "release_ym": null,
+    "relaunch_ym": null,
+    "release_source": null,
+    "concerns": [],
+    "concern_evidence": [],
+    "concern_note": null,
+    "status": "active",
+    "added_on": "2026-11-18",
+    "added_in": "v0.1",
+    "notes": "'자작나무 수분 톤업 선크림'이 따로 있다"
+  },
+  {
+    "product_id": "P0034",
+    "product_name": "맑은쌀 선크림",
+    "name_needs_brand": false,
+    "brand_id": "B028",
+    "brand": "조선미녀",
+    "brand_aliases": [
+      {
+        "text": "Beauty of Joseon",
+        "verified": true,
+        "needs_context": false,
+        "evidence": "https://skinsli.com/products/beauty-of-joseon-clear-rice-sunscreen-50ml"
+      }
+    ],
+    "line": "맑은쌀",
+    "aliases": [],
+    "category": "sun",
+    "awareness_tier": "중간",
+    "awareness_basis": "해외(아마존) 판매 상위권 보도가 있으나 글로우픽 리뷰는 270개",
+    "awareness_source": "하퍼스 바자 코리아 기사, 글로우픽(2026-11 검색 결과)",
+    "verify_url": "https://unpa.me/reviews/380818",
+    "release_ym": null,
+    "relaunch_ym": null,
+    "release_source": null,
+    "concerns": [],
+    "concern_evidence": [],
+    "concern_note": null,
+    "status": "active",
+    "added_on": "2026-11-18",
+    "added_in": "v0.1",
+    "notes": "'맑은쌀 선크림 아쿠아 프레쉬'가 따로 있다. '조선미녀 선크림'은 데이스크린 틴티드 선크림과 겹쳐 별칭에서 뺐다"
+  },
+  {
+    "product_id": "P0035",
+    "product_name": "그린 마일드 업 선 플러스",
+    "name_needs_brand": false,
+    "brand_id": "B021",
+    "brand": "닥터지",
+    "brand_aliases": [
+      {
+        "text": "Dr.G",
+        "verified": false,
+        "needs_context": false
+      }
+    ],
+    "line": "그린 마일드",
+    "aliases": [
+      {
+        "text": "그린 마일드 선크림",
+        "verified": false,
+        "needs_brand": false
+      },
+      {
+        "text": "그린마일드 업 선",
+        "verified": false,
+        "needs_brand": false
+      }
+    ],
+    "category": "sun",
+    "awareness_tier": "유명",
+    "awareness_basis": "글로우픽 리뷰 1,776개",
+    "awareness_source": "글로우픽 브랜드 페이지(2026-11 검색 결과)",
+    "verify_url": "https://www.glowpick.com/brands/478",
+    "release_ym": null,
+    "relaunch_ym": null,
+    "release_source": null,
+    "concerns": [],
+    "concern_evidence": [],
+    "concern_note": null,
+    "status": "active",
+    "added_on": "2026-11-18",
+    "added_in": "v0.1",
+    "notes": null
+  },
+  {
+    "product_id": "P0036",
+    "product_name": "히알루-시카 워터핏 선세럼",
+    "name_needs_brand": false,
+    "brand_id": "B004",
+    "brand": "스킨1004",
+    "brand_aliases": [
+      {
+        "text": "SKIN1004",
+        "verified": true,
+        "needs_context": false,
+        "evidence": "https://www.mirai-skin.com/ko/collections/skin1004"
+      },
+      {
+        "text": "스킨천사",
+        "verified": true,
+        "needs_context": false,
+        "evidence": "https://unpa.me/reviews/415830"
+      }
+    ],
+    "line": "히알루-시카",
+    "aliases": [
+      {
+        "text": "워터핏 선세럼",
+        "verified": false,
+        "needs_brand": false
+      },
+      {
+        "text": "히알루시카 선세럼",
+        "verified": false,
+        "needs_brand": false
+      }
+    ],
+    "category": "sun",
+    "awareness_tier": "중간",
+    "awareness_basis": "글로우픽 리뷰 395개, 1,000개 기준 미달",
+    "awareness_source": "글로우픽 브랜드 페이지(2026-11 검색 결과)",
+    "verify_url": "https://www.glowpick.com/brands/799",
+    "release_ym": null,
+    "relaunch_ym": null,
+    "release_source": null,
+    "concerns": [],
+    "concern_evidence": [],
+    "concern_note": null,
+    "status": "active",
+    "added_on": "2026-11-18",
+    "added_in": "v0.1",
+    "notes": "공식 표기에 '마다가스카르 센텔라'가 앞에 붙는지 확인하지 못했다"
+  },
+  {
+    "product_id": "P0037",
+    "product_name": "다이브인 워터리 모이스처 선크림",
+    "name_needs_brand": false,
+    "brand_id": "B003",
+    "brand": "토리든",
+    "brand_aliases": [
+      {
+        "text": "Torriden",
+        "verified": true,
+        "needs_context": false,
+        "evidence": "https://www.mirai-skin.com/ko/products/torriden-dive-in-low-molecular-hyaluronic-acid-cleansing-foam-150ml"
+      }
+    ],
+    "line": "다이브인",
+    "aliases": [
+      {
+        "text": "다이브인 선크림",
+        "verified": false,
+        "needs_brand": true,
+        "note": "같은 라인 무기자차 마일드 선크림과 겹친다"
+      }
+    ],
+    "category": "sun",
+    "awareness_tier": "중간",
+    "awareness_basis": "브랜드는 유명하나 선크림 단독 언급량은 판단 근거가 없다",
+    "awareness_source": "작성자 판단",
+    "verify_url": "https://www.glowpick.com/brands/5996",
+    "release_ym": null,
+    "relaunch_ym": null,
+    "release_source": null,
+    "concerns": [],
+    "concern_evidence": [],
+    "concern_note": null,
+    "status": "active",
+    "added_on": "2026-11-18",
+    "added_in": "v0.1",
+    "notes": null
+  },
+  {
+    "product_id": "P0038",
+    "product_name": "맑은 어성초 진정 수분 선크림",
+    "name_needs_brand": false,
+    "brand_id": "B010",
+    "brand": "구달",
+    "brand_aliases": [
+      {
+        "text": "goodal",
+        "verified": true,
+        "needs_context": false,
+        "evidence": "https://wooltariusa.com/zh/collections/w-beauty_toner/products/goodal-green-tangerine-vita-c-dark-spot-care-serum-alpha-40ml"
+      }
+    ],
+    "line": "맑은 어성초",
+    "aliases": [
+      {
+        "text": "어성초 선크림",
+        "verified": false,
+        "needs_brand": true,
+        "note": "아누아·다자연 어성초 선크림과 겹친다"
+      }
+    ],
+    "category": "sun",
+    "awareness_tier": "유명",
+    "awareness_basis": "2025 올리브영 어워즈 선케어 부문 수상",
+    "awareness_source": "엘르 코리아 2026-01-11 기사",
+    "verify_url": "https://www.elle.co.kr/article/1894913",
+    "release_ym": null,
+    "relaunch_ym": null,
+    "release_source": null,
+    "concerns": [],
+    "concern_evidence": [],
+    "concern_note": null,
+    "status": "active",
+    "added_on": "2026-11-18",
+    "added_in": "v0.1",
+    "notes": null
+  },
+  {
+    "product_id": "P0039",
+    "product_name": "레이저 썬스크린 100",
+    "name_needs_brand": false,
+    "brand_id": "B029",
+    "brand": "셀퓨전씨",
+    "brand_aliases": [
+      {
+        "text": "Cell Fusion C",
+        "verified": true,
+        "needs_context": false,
+        "evidence": "https://skinsli.com/products/cell-fusion-c-laser-sunscreen-100-45ml"
+      }
+    ],
+    "line": "레이저",
+    "aliases": [
+      {
+        "text": "레이저 선크림",
+        "verified": false,
+        "needs_brand": false
+      },
+      {
+        "text": "레이저 썬크림",
+        "verified": false,
+        "needs_brand": false
+      }
+    ],
+    "category": "sun",
+    "awareness_tier": "중간",
+    "awareness_basis": "피부과 유통 이미지가 강한 제품으로 언급량은 판단 근거가 없다",
+    "awareness_source": "작성자 판단",
+    "verify_url": "https://www.glowpick.com/reviews/6424171",
+    "release_ym": null,
+    "relaunch_ym": null,
+    "release_source": null,
+    "concerns": [],
+    "concern_evidence": [],
+    "concern_note": null,
+    "status": "active",
+    "added_on": "2026-11-18",
+    "added_in": "v0.1",
+    "notes": "'레이저 UV 썬스크린'이 따로 있다"
+  },
+  {
+    "product_id": "P0040",
+    "product_name": "선뮤즈 모이스처 선크림",
+    "name_needs_brand": false,
+    "brand_id": "B030",
+    "brand": "비플레인",
+    "brand_aliases": [
+      {
+        "text": "beplain",
+        "verified": true,
+        "needs_context": false,
+        "evidence": "https://skinsli.com/products/beplain-sun-muse-moisture-sunscreen-50ml20ml"
+      }
+    ],
+    "line": "선뮤즈",
+    "aliases": [
+      {
+        "text": "선뮤즈 선크림",
+        "verified": false,
+        "needs_brand": true,
+        "note": "같은 라인 톤업 앤 코렉팅 선크림과 겹친다"
+      }
+    ],
+    "category": "sun",
+    "awareness_tier": "중간",
+    "awareness_basis": "무신사 후기 346개",
+    "awareness_source": "무신사 상품 페이지(2026-11 검색 결과)",
+    "verify_url": "https://www.musinsa.com/products/1901805",
+    "release_ym": null,
+    "relaunch_ym": null,
+    "release_source": null,
+    "concerns": [],
+    "concern_evidence": [],
+    "concern_note": null,
+    "status": "active",
+    "added_on": "2026-11-18",
+    "added_in": "v0.1",
+    "notes": null
+  },
+  {
+    "product_id": "P0041",
+    "product_name": "워터풀 에센스 선크림",
+    "name_needs_brand": false,
+    "brand_id": "B019",
+    "brand": "달바",
+    "brand_aliases": [
+      {
+        "text": "d'Alba",
+        "verified": false,
+        "needs_context": false
+      }
+    ],
+    "line": "워터풀",
+    "aliases": [
+      {
+        "text": "워터풀 선크림",
+        "verified": false,
+        "needs_brand": true,
+        "note": "같은 라인 워터풀 마일드 선크림과 겹친다"
+      }
+    ],
+    "category": "sun",
+    "awareness_tier": "중간",
+    "awareness_basis": "브랜드는 알려져 있으나 이 제품 단독 언급량은 판단 근거가 없다",
+    "awareness_source": "작성자 판단",
+    "verify_url": "https://unpa.me/reviews/268538",
+    "release_ym": null,
+    "relaunch_ym": null,
+    "release_source": null,
+    "concerns": [],
+    "concern_evidence": [],
+    "concern_note": null,
+    "status": "active",
+    "added_on": "2026-11-18",
+    "added_in": "v0.1",
+    "notes": null
+  },
+  {
+    "product_id": "P0042",
+    "product_name": "유브이 디펜스 미 카밍 선크림",
+    "name_needs_brand": false,
+    "brand_id": "B025",
+    "brand": "메이크프렘",
+    "brand_aliases": [
+      {
+        "text": "make p:rem",
+        "verified": true,
+        "needs_context": false,
+        "evidence": "https://skinsli.com/products/make-prem-juve-defense-mi-caming-tone-up-sunscreen-50ml"
+      }
+    ],
+    "line": "유브이 디펜스 미",
+    "aliases": [
+      {
+        "text": "카밍 선크림",
+        "verified": false,
+        "needs_brand": true
+      },
+      {
+        "text": "UV 디펜스 미 카밍 선크림",
+        "verified": false,
+        "needs_brand": false
+      }
+    ],
+    "category": "sun",
+    "awareness_tier": "저언급",
+    "awareness_basis": "같은 라인 제품이 여럿이라 이 제품 단독 언급은 적을 것으로 본다",
+    "awareness_source": "작성자 판단",
+    "verify_url": "https://unpa.me/reviews/211059",
+    "release_ym": null,
+    "relaunch_ym": null,
+    "release_source": null,
+    "concerns": [],
+    "concern_evidence": [],
+    "concern_note": null,
+    "status": "active",
+    "added_on": "2026-11-18",
+    "added_in": "v0.1",
+    "notes": "톤업 버전이 따로 있다"
+  },
+  {
+    "product_id": "P0043",
+    "product_name": "어성초 실키 모이스처 선크림",
+    "name_needs_brand": false,
+    "brand_id": "B002",
+    "brand": "아누아",
+    "brand_aliases": [
+      {
+        "text": "ANUA",
+        "verified": true,
+        "needs_context": false,
+        "evidence": "https://unpa.me/reviews/288499"
+      }
+    ],
+    "line": "어성초",
+    "aliases": [
+      {
+        "text": "실키 모이스처 선크림",
+        "verified": false,
+        "needs_brand": false
+      }
+    ],
+    "category": "sun",
+    "awareness_tier": "저언급",
+    "awareness_basis": "브랜드는 유명하나 선크림은 토너·클렌징 오일보다 덜 언급될 것으로 본다",
+    "awareness_source": "작성자 판단",
+    "verify_url": "https://www.glowpick.com/reviews/7592921",
+    "release_ym": null,
+    "relaunch_ym": null,
+    "release_source": null,
+    "concerns": [],
+    "concern_evidence": [],
+    "concern_note": null,
+    "status": "active",
+    "added_on": "2026-11-18",
+    "added_in": "v0.1",
+    "notes": null
+  },
+  {
+    "product_id": "P0044",
+    "product_name": "어성초 수분 선크림",
+    "name_needs_brand": true,
+    "brand_id": "B031",
+    "brand": "다자연",
+    "brand_aliases": [],
+    "line": "어성초",
+    "aliases": [],
+    "category": "sun",
+    "awareness_tier": "저언급",
+    "awareness_basis": "브랜드 인지도가 낮다",
+    "awareness_source": "작성자 판단",
+    "verify_url": "https://unpa.me/reviews/307118",
+    "release_ym": null,
+    "relaunch_ym": null,
+    "release_source": null,
+    "concerns": [],
+    "concern_evidence": [],
+    "concern_note": null,
+    "status": "active",
+    "added_on": "2026-11-18",
+    "added_in": "v0.1",
+    "notes": "제품명이 구달·아누아 제품과 비슷해 제품명 자체도 브랜드 동반 시에만 인정한다. 브랜드명 '다자연'은 '다 자연스럽게'와 띄어쓰기 제거 후 겹친다"
+  },
+  {
+    "product_id": "P0045",
+    "product_name": "레티놀 엑스퍼트 0.1%",
+    "name_needs_brand": false,
+    "brand_id": "B032",
+    "brand": "아이오페",
+    "brand_aliases": [
+      {
+        "text": "IOPE",
+        "verified": true,
+        "needs_context": false,
+        "evidence": "https://www.whowhatwear.com/beauty/skin/best-korean-skincare-products"
+      }
+    ],
+    "line": "레티놀 엑스퍼트",
+    "aliases": [
+      {
+        "text": "레티놀 엑스퍼트 0.1",
+        "verified": false,
+        "needs_brand": false
+      },
+      {
+        "text": "링클 코렉터 0.1%",
+        "verified": false,
+        "needs_brand": false,
+        "note": "2023-10 업그레이드 후 판매명"
+      }
+    ],
+    "category": "cream",
+    "awareness_tier": "중간",
+    "awareness_basis": "글로우픽 리뷰 196개이나 2023년 이름이 바뀌어 리뷰가 나뉘어 있다",
+    "awareness_source": "작성자 판단",
+    "verify_url": "https://glowpick.com/products/128764/reviews",
+    "release_ym": null,
+    "relaunch_ym": "2023-10",
+    "release_source": "아모레퍼시픽 보도자료 2023-10-18('레티놀 엑스퍼트 링클 코렉터'로 업그레이드 출시) https://www.apgroup.com/int/ko/news/2023-10-18-1.html",
+    "concerns": [
+      "milia"
+    ],
+    "concern_evidence": [
+      "https://glowpick.com/products/128764/reviews"
+    ],
+    "concern_note": "리뷰에서 비립종 부작용 여부가 언급됨",
+    "status": "active",
+    "added_on": "2026-11-18",
+    "added_in": "v0.2",
+    "notes": "2023-10 '레티놀 엑스퍼트 링클 코렉터 0.1%'로 업그레이드 출시(아모레퍼시픽 보도자료). 0.3% 제품이 따로 있다"
+  },
+  {
+    "product_id": "P0046",
+    "product_name": "더마뉴얼 리페어 크림",
+    "name_needs_brand": false,
+    "brand_id": "B027",
+    "brand": "제로이드",
+    "brand_aliases": [
+      {
+        "text": "ZEROID",
+        "verified": false,
+        "needs_context": false
+      }
+    ],
+    "line": "더마뉴얼",
+    "aliases": [
+      {
+        "text": "더마뉴얼 크림",
+        "verified": false,
+        "needs_brand": false
+      }
+    ],
+    "category": "cream",
+    "awareness_tier": "저언급",
+    "awareness_basis": "글로우픽 리뷰 12개",
+    "awareness_source": "글로우픽 상품 페이지(2026-11 검색 결과)",
+    "verify_url": "https://www.glowpick.com/products/21818/reviews",
+    "release_ym": null,
+    "relaunch_ym": null,
+    "release_source": null,
+    "concerns": [
+      "milia"
+    ],
+    "concern_evidence": [
+      "https://www.glowpick.com/products/21818/reviews"
+    ],
+    "concern_note": "리뷰에서 비립종 제거 시술 후 사용으로 언급됨",
+    "status": "active",
+    "added_on": "2026-11-18",
+    "added_in": "v0.2",
+    "notes": null
+  },
+  {
+    "product_id": "P0047",
+    "product_name": "기미야 미백 크림",
+    "name_needs_brand": false,
+    "brand_id": "B033",
+    "brand": "토니모리",
+    "brand_aliases": [
+      {
+        "text": "TONYMOLY",
+        "verified": true,
+        "needs_context": false,
+        "evidence": "https://www.hwahae.com/en/brand/TONYMOLY/best-for-acne-skin"
+      }
+    ],
+    "line": "기미야",
+    "aliases": [
+      {
+        "text": "기미야 크림",
+        "verified": false,
+        "needs_brand": false
+      }
+    ],
+    "category": "cream",
+    "awareness_tier": "저언급",
+    "awareness_basis": "글로우픽 리뷰 14개",
+    "awareness_source": "글로우픽 상품 페이지(2026-11 검색 결과)",
+    "verify_url": "https://www.glowpick.com/products/152940/reviews",
+    "release_ym": null,
+    "relaunch_ym": null,
+    "release_source": null,
+    "concerns": [
+      "milia"
+    ],
+    "concern_evidence": [
+      "https://www.glowpick.com/products/152940/reviews"
+    ],
+    "concern_note": "리뷰에서 비립종과 함께 언급됨",
+    "status": "active",
+    "added_on": "2026-11-18",
+    "added_in": "v0.2",
+    "notes": null
+  },
+  {
+    "product_id": "P0048",
+    "product_name": "갈락토미세스 데일리 부스터 세럼",
+    "name_needs_brand": false,
+    "brand_id": "B034",
+    "brand": "화음",
+    "brand_aliases": [
+      {
+        "text": "HWAUUM",
+        "verified": true,
+        "needs_context": false,
+        "evidence": "https://www.hwahae.com/en/brand/HWAUUM/best-for-acne-skin"
+      }
+    ],
+    "line": "갈락토미세스",
+    "aliases": [
+      {
+        "text": "데일리 부스터 세럼",
+        "verified": false,
+        "needs_brand": false
+      }
+    ],
+    "category": "serum",
+    "awareness_tier": "저언급",
+    "awareness_basis": "화해 리뷰 258개, 신생 브랜드",
+    "awareness_source": "화해 상품 페이지(2026-11 검색 결과)",
+    "verify_url": "https://unpa.me/reviews/295448",
+    "release_ym": null,
+    "relaunch_ym": null,
+    "release_source": null,
+    "concerns": [
+      "milia"
+    ],
+    "concern_evidence": [
+      "https://www.hwahae.com/en/brand/HWAUUM/best-for-acne-skin"
+    ],
+    "concern_note": "화해 브랜드 요약에 비립종 관련 리뷰가 많다고 적힘",
+    "status": "active",
+    "added_on": "2026-11-18",
+    "added_in": "v0.2",
+    "notes": "정규화 후 '갈락토미세스'는 마녀공장 라인명 '갈락토미'를 포함한다. 긴 이름 우선 매칭 필요"
+  },
+  {
+    "product_id": "P0049",
+    "product_name": "스킨 퍼펙팅 바하 리퀴드",
+    "name_needs_brand": false,
+    "brand_id": "B035",
+    "brand": "폴라초이스",
+    "brand_aliases": [
+      {
+        "text": "Paula's Choice",
+        "verified": true,
+        "needs_context": false,
+        "evidence": "https://www.vogue.co.kr/?p=278150"
+      }
+    ],
+    "line": "스킨 퍼펙팅",
+    "aliases": [
+      {
+        "text": "2% BHA 리퀴드",
+        "verified": false,
+        "needs_brand": false
+      },
+      {
+        "text": "바하 리퀴드",
+        "verified": false,
+        "needs_brand": true,
+        "note": "코스알엑스 BHA 블랙헤드 파워 리퀴드 등과 겹친다"
+      }
+    ],
+    "category": "toner",
+    "awareness_tier": "중간",
+    "awareness_basis": "해외 브랜드로 직구·컬리 판매. 언급량 판단 근거 없음",
+    "awareness_source": "작성자 판단",
+    "verify_url": "https://www.kurly.com/goods/5056172",
+    "release_ym": null,
+    "relaunch_ym": null,
+    "release_source": null,
+    "concerns": [
+      "milia",
+      "acne"
+    ],
+    "concern_evidence": [
+      "https://www.hwahae.com/en/brand/%ED%8F%B4%EB%9D%BC%EC%B4%88%EC%9D%B4%EC%8A%A4/best-for-acne-skin",
+      "https://www.vogue.co.kr/?p=278150"
+    ],
+    "concern_note": "화해 브랜드 요약(각질제거제가 비립종·여드름과 함께 언급), 보그 코리아 2022-05-31 여드름 제품 기사",
+    "status": "active",
+    "added_on": "2026-11-18",
+    "added_in": "v0.2",
+    "notes": "컬리 표기 '스킨 퍼펙팅 바하 리퀴드'. 영문 'Skin Perfecting 2% BHA Liquid Exfoliant'. 바르는 각질제거제라 toner로 분류"
+  },
+  {
+    "product_id": "P0050",
+    "product_name": "엑스트라 리페어 아이크림 인텐스",
+    "name_needs_brand": false,
+    "brand_id": "B036",
+    "brand": "바비브라운",
+    "brand_aliases": [
+      {
+        "text": "Bobbi Brown",
+        "verified": false,
+        "needs_context": false
+      }
+    ],
+    "line": "엑스트라 리페어",
+    "aliases": [
+      {
+        "text": "엑스트라 리페어 아이크림",
+        "verified": false,
+        "needs_brand": false
+      }
+    ],
+    "category": "cream",
+    "awareness_tier": "저언급",
+    "awareness_basis": "글로우픽 리뷰 20개",
+    "awareness_source": "글로우픽 상품 페이지(2026-11 검색 결과)",
+    "verify_url": "https://www.glowpick.com/products/151910/reviews",
+    "release_ym": null,
+    "relaunch_ym": null,
+    "release_source": null,
+    "concerns": [
+      "milia"
+    ],
+    "concern_evidence": [
+      "https://www.glowpick.com/products/151910/reviews"
+    ],
+    "concern_note": "리뷰 다수가 비립종 발생 여부를 언급",
+    "status": "active",
+    "added_on": "2026-11-18",
+    "added_in": "v0.2",
+    "notes": "아이크림. 별도 코드로 분리할지는 팀 결정. 리뉴얼 전후 비교 리뷰가 있다"
+  },
+  {
+    "product_id": "P0051",
+    "product_name": "유스 래스팅 리얼 아이크림 포 페이스",
+    "name_needs_brand": false,
+    "brand_id": "B037",
+    "brand": "AHC",
+    "brand_aliases": [],
+    "line": "리얼 아이크림",
+    "aliases": [
+      {
+        "text": "유스래스팅 아이크림",
+        "verified": false,
+        "needs_brand": false
+      }
+    ],
+    "category": "cream",
+    "awareness_tier": "중간",
+    "awareness_basis": "브랜드 아이크림 라인이 시즌제로 재출시되며 꾸준히 판매된다",
+    "awareness_source": "작성자 판단",
+    "verify_url": "https://glowpick.com/products/142504/expression?expressionId=545",
+    "release_ym": null,
+    "relaunch_ym": null,
+    "release_source": null,
+    "concerns": [
+      "milia"
+    ],
+    "concern_evidence": [
+      "https://glowpick.com/products/142504/expression?expressionId=545"
+    ],
+    "concern_note": "리뷰에서 비립종 발생이 언급됨",
+    "status": "active",
+    "added_on": "2026-11-18",
+    "added_in": "v0.2",
+    "notes": "아이크림. 별도 코드로 분리할지는 팀 결정. 같은 '리얼 아이크림 포 페이스' 라인에 타임 리와인드·프라이빗·에이지리스 등 시즌 제품이 여럿이라 '리얼 아이크림'만 나오면 라인 언급으로 처리한다"
+  },
+  {
+    "product_id": "P0052",
+    "product_name": "녹차 화이트닝 아이크림",
+    "name_needs_brand": true,
+    "brand_id": "B038",
+    "brand": "시드물",
+    "brand_aliases": [
+      {
+        "text": "SIDMOOL",
+        "verified": true,
+        "needs_context": false,
+        "evidence": "https://www.hwahae.com/en/brand/%ED%8F%B4%EB%9D%BC%EC%B4%88%EC%9D%B4%EC%8A%A4/best-for-acne-skin"
+      }
+    ],
+    "line": "녹차",
+    "aliases": [],
+    "category": "cream",
+    "awareness_tier": "저언급",
+    "awareness_basis": "글로우픽 리뷰 124개",
+    "awareness_source": "글로우픽 상품 페이지(2026-11 검색 결과)",
+    "verify_url": "https://www.glowpick.com/products/24675/reviews",
+    "release_ym": null,
+    "relaunch_ym": null,
+    "release_source": null,
+    "concerns": [
+      "milia"
+    ],
+    "concern_evidence": [
+      "https://www.glowpick.com/products/24675/reviews"
+    ],
+    "concern_note": "리뷰 다수가 비립종 발생 여부를 언급",
+    "status": "active",
+    "added_on": "2026-11-18",
+    "added_in": "v0.2",
+    "notes": "아이크림. 별도 코드로 분리할지는 팀 결정. 제품명이 일반적이라 브랜드 동반 시에만 인정한다"
+  },
+  {
+    "product_id": "P0053",
+    "product_name": "울트라 펩타인 바이옴 아이크림",
+    "name_needs_brand": false,
+    "brand_id": "B039",
+    "brand": "스와니코코",
+    "brand_aliases": [
+      {
+        "text": "swanicoco",
+        "verified": true,
+        "needs_context": false,
+        "evidence": "https://skinsli.com/products/swanicoco-fermented-snail-essence"
+      }
+    ],
+    "line": "울트라 펩타인 바이옴",
+    "aliases": [
+      {
+        "text": "펩타인 바이옴 아이크림",
+        "verified": false,
+        "needs_brand": false
+      }
+    ],
+    "category": "cream",
+    "awareness_tier": "저언급",
+    "awareness_basis": "글로우픽 리뷰 70개",
+    "awareness_source": "글로우픽 상품 페이지(2026-11 검색 결과)",
+    "verify_url": "https://www.glowpick.com/products/146795/reviews",
+    "release_ym": null,
+    "relaunch_ym": null,
+    "release_source": null,
+    "concerns": [
+      "milia"
+    ],
+    "concern_evidence": [
+      "https://www.glowpick.com/products/146795/reviews"
+    ],
+    "concern_note": "리뷰 다수가 비립종 발생 여부를 언급",
+    "status": "active",
+    "added_on": "2026-11-18",
+    "added_in": "v0.2",
+    "notes": "아이크림. 별도 코드로 분리할지는 팀 결정"
+  },
+  {
+    "product_id": "P0054",
+    "product_name": "나이아신아마이드 10% + 징크 1%",
+    "name_needs_brand": false,
+    "brand_id": "B040",
+    "brand": "디오디너리",
+    "brand_aliases": [
+      {
+        "text": "The Ordinary",
+        "verified": true,
+        "needs_context": false,
+        "evidence": "https://www.vogue.co.kr/?p=278150"
+      }
+    ],
+    "line": "나이아신아마이드",
+    "aliases": [
+      {
+        "text": "나이아신아마이드 10 징크 1",
+        "verified": false,
+        "needs_brand": false
+      },
+      {
+        "text": "징크 세럼",
+        "verified": false,
+        "needs_brand": true
+      }
+    ],
+    "category": "serum",
+    "awareness_tier": "중간",
+    "awareness_basis": "해외 브랜드로 국내 리뷰 사이트에 리뷰가 꾸준하다",
+    "awareness_source": "작성자 판단",
+    "verify_url": "https://www.kurly.com/goods/5058788",
+    "release_ym": null,
+    "relaunch_ym": null,
+    "release_source": null,
+    "concerns": [
+      "acne"
+    ],
+    "concern_evidence": [
+      "https://www.vogue.co.kr/?p=278150"
+    ],
+    "concern_note": "보그 코리아 2022-05-31 여드름 제품 기사",
+    "status": "active",
+    "added_on": "2026-11-18",
+    "added_in": "v0.2",
+    "notes": "정규화 형태 비교 시 '%'·'+'는 남는다. 매칭 전처리에서 기호 처리 규칙 확인 필요"
+  },
+  {
+    "product_id": "P0055",
+    "product_name": "에빠끌라 듀오+",
+    "name_needs_brand": false,
+    "brand_id": "B041",
+    "brand": "라로슈포제",
+    "brand_aliases": [
+      {
+        "text": "La Roche-Posay",
+        "verified": true,
+        "needs_context": false,
+        "evidence": "https://www.vogue.co.kr/?p=278150"
+      }
+    ],
+    "line": "에빠끌라",
+    "aliases": [
+      {
+        "text": "에빠끌라 듀오 플러스",
+        "verified": false,
+        "needs_brand": false
+      }
+    ],
+    "category": "cream",
+    "awareness_tier": "중간",
+    "awareness_basis": "더마 브랜드 대표 트러블 제품으로 리뷰 사이트에 리뷰가 많다",
+    "awareness_source": "작성자 판단",
+    "verify_url": "https://unpa.me/reviews/37583",
+    "release_ym": null,
+    "relaunch_ym": null,
+    "release_source": null,
+    "concerns": [
+      "acne"
+    ],
+    "concern_evidence": [
+      "https://www.glowpick.com/products/10657/expression?expressionId=42"
+    ],
+    "concern_note": "리뷰에서 화농성·좁쌀 여드름 맥락으로 언급",
+    "status": "active",
+    "added_on": "2026-11-18",
+    "added_in": "v0.2",
+    "notes": "후속 '에빠끌라 듀오 플러스 엠'이 있다. '에빠끌라'만 나오면 라인 언급(클렌저·세럼 등과 구분 불가)으로 처리한다"
+  },
+  {
+    "product_id": "P0056",
+    "product_name": "아하 바하 파하 30 데이즈 미라클 토너",
+    "name_needs_brand": false,
+    "brand_id": "B042",
+    "brand": "썸바이미",
+    "brand_aliases": [
+      {
+        "text": "SOME BY MI",
+        "verified": true,
+        "needs_context": false,
+        "evidence": "https://www.mirai-skin.com/ko/collections/some-by-mi"
+      }
+    ],
+    "line": "30 데이즈 미라클",
+    "aliases": [
+      {
+        "text": "AHA BHA PHA 30 데이즈 미라클 토너",
+        "verified": false,
+        "needs_brand": false
+      },
+      {
+        "text": "미라클 토너",
+        "verified": false,
+        "needs_brand": true
+      }
+    ],
+    "category": "toner",
+    "awareness_tier": "중간",
+    "awareness_basis": "브랜드 대표 제품이다",
+    "awareness_source": "작성자 판단",
+    "verify_url": "https://unpa.me/reviews/39162",
+    "release_ym": null,
+    "relaunch_ym": null,
+    "release_source": null,
+    "concerns": [
+      "acne"
+    ],
+    "concern_evidence": [
+      "https://megakfood.com/products/aha-bha-pha-30-days-miracle-to"
+    ],
+    "concern_note": "판매처 설명에 여드름성 피부용으로 표기",
+    "status": "active",
+    "added_on": "2026-11-18",
+    "added_in": "v0.2",
+    "notes": "같은 라인 세럼·크림이 있다"
+  },
+  {
+    "product_id": "P0057",
+    "product_name": "더 나이아신아마이드 15 세럼",
+    "name_needs_brand": false,
+    "brand_id": "B012",
+    "brand": "코스알엑스",
+    "brand_aliases": [
+      {
+        "text": "COSRX",
+        "verified": true,
+        "needs_context": false,
+        "evidence": "https://cosrx.com/products/advanced-snail-96-mucin-power-essence"
+      }
+    ],
+    "line": "더 나이아신아마이드",
+    "aliases": [
+      {
+        "text": "나이아신아마이드 15 세럼",
+        "verified": false,
+        "needs_brand": true,
+        "note": "메디큐브 TXA 나이아신아마이드 15% 세럼과 겹친다"
+      }
+    ],
+    "category": "serum",
+    "awareness_tier": "저언급",
+    "awareness_basis": "비교적 최근 제품으로 국내 리뷰가 적다",
+    "awareness_source": "작성자 판단",
+    "verify_url": "https://www.cosrx.com/collections/acne-blemishes/products/the-niacinamide-15-serum",
+    "release_ym": null,
+    "relaunch_ym": null,
+    "release_source": null,
+    "concerns": [
+      "acne"
+    ],
+    "concern_evidence": [
+      "https://www.cosrx.com/collections/acne-blemishes/products/the-niacinamide-15-serum",
+      "https://www.hwahae.com/blog/?p=2222"
+    ],
+    "concern_note": "브랜드 공식몰 acne-blemishes 분류, 화해 블로그 여드름 추천 목록",
+    "status": "active",
+    "added_on": "2026-11-18",
+    "added_in": "v0.2",
+    "notes": "한글 표기는 영문명(The Niacinamide 15 Serum)을 옮긴 것으로 국내 공식 표기 미확인"
+  },
+  {
+    "product_id": "P0058",
+    "product_name": "어성초 진정해 수분 토너",
+    "name_needs_brand": false,
+    "brand_id": "B043",
+    "brand": "프리메이",
+    "brand_aliases": [
+      {
+        "text": "FREEMAY",
+        "verified": true,
+        "needs_context": false,
+        "evidence": "https://skinsli.com/products/freemay-erseong-candle-soothing-moisture-toner-350ml"
+      }
+    ],
+    "line": "어성초",
+    "aliases": [
+      {
+        "text": "진정해 수분 토너",
+        "verified": false,
+        "needs_brand": false
+      },
+      {
+        "text": "진정해 토너",
+        "verified": false,
+        "needs_brand": false
+      }
+    ],
+    "category": "toner",
+    "awareness_tier": "저언급",
+    "awareness_basis": "리뷰 사이트 리뷰가 적다",
+    "awareness_source": "작성자 판단",
+    "verify_url": "https://unpa.me/reviews/444482",
+    "release_ym": null,
+    "relaunch_ym": null,
+    "release_source": null,
+    "concerns": [
+      "acne"
+    ],
+    "concern_evidence": [
+      "https://www.hwahae.com/blog/?p=2222"
+    ],
+    "concern_note": "화해 블로그 여드름 추천 목록",
+    "status": "active",
+    "added_on": "2026-11-18",
+    "added_in": "v0.2",
+    "notes": "화해 블로그 영문 표기는 'Heartleaf Calm Down Moisture Toner'"
+  },
+  {
+    "product_id": "P0059",
+    "product_name": "인테카 수딩 크림",
+    "name_needs_brand": false,
+    "brand_id": "B025",
+    "brand": "메이크프렘",
+    "brand_aliases": [
+      {
+        "text": "make p:rem",
+        "verified": true,
+        "needs_context": false,
+        "evidence": "https://skinsli.com/products/make-prem-juve-defense-mi-caming-tone-up-sunscreen-50ml"
+      }
+    ],
+    "line": "인테카",
+    "aliases": [
+      {
+        "text": "인테카 크림",
+        "verified": false,
+        "needs_brand": false
+      }
+    ],
+    "category": "cream",
+    "awareness_tier": "중간",
+    "awareness_basis": "글로우픽 리뷰 911개, 300~1,000개 구간",
+    "awareness_source": "글로우픽 브랜드 페이지(2026-11 검색 결과)",
+    "verify_url": "https://unpa.me/reviews/295860",
+    "release_ym": null,
+    "relaunch_ym": null,
+    "release_source": null,
+    "concerns": [
+      "acne"
+    ],
+    "concern_evidence": [
+      "https://www.hwahae.com/blog/?p=2222"
+    ],
+    "concern_note": "화해 블로그 여드름 추천 목록",
+    "status": "active",
+    "added_on": "2026-11-18",
+    "added_in": "v0.2",
+    "notes": "같은 라인 패드·앰플·클렌징 폼이 있다"
+  },
+  {
+    "product_id": "P0060",
+    "product_name": "TXA 나이아신아마이드 15% 세럼",
+    "name_needs_brand": false,
+    "brand_id": "B044",
+    "brand": "메디큐브",
+    "brand_aliases": [
+      {
+        "text": "medicube",
+        "verified": true,
+        "needs_context": false,
+        "evidence": "https://www.mirai-skin.com/ko/products/medicube-txa-niacinamide-15-serum-30ml"
+      }
+    ],
+    "line": "TXA",
+    "aliases": [
+      {
+        "text": "TXA 세럼",
+        "verified": false,
+        "needs_brand": false
+      },
+      {
+        "text": "티엑스에이 세럼",
+        "verified": false,
+        "needs_brand": false
+      }
+    ],
+    "category": "serum",
+    "awareness_tier": "중간",
+    "awareness_basis": "브랜드 인지도가 높고 해외 판매처가 많다",
+    "awareness_source": "작성자 판단",
+    "verify_url": "https://www.mirai-skin.com/ko/products/medicube-txa-niacinamide-15-serum-30ml",
+    "release_ym": null,
+    "relaunch_ym": null,
+    "release_source": null,
+    "concerns": [
+      "acne"
+    ],
+    "concern_evidence": [
+      "https://www.hwahae.com/blog/?p=2222"
+    ],
+    "concern_note": "화해 블로그 여드름 흔적 케어 항목",
+    "status": "active",
+    "added_on": "2026-11-18",
+    "added_in": "v0.2",
+    "notes": null
+  },
+  {
+    "product_id": "P0061",
+    "product_name": "아크네 클리어 토너 패드",
+    "name_needs_brand": false,
+    "brand_id": "B045",
+    "brand": "에이솔루션",
+    "brand_aliases": [
+      {
+        "text": "asolution",
+        "verified": true,
+        "needs_context": false,
+        "evidence": "https://buybeautykorea.com/products/asolution-acne-clear-toner-pad-60ea"
+      }
+    ],
+    "line": "아크네 클리어",
+    "aliases": [
+      {
+        "text": "아크네 클리어 패드",
+        "verified": false,
+        "needs_brand": false
+      }
+    ],
+    "category": "toner",
+    "awareness_tier": "저언급",
+    "awareness_basis": "언파 리뷰 10개",
+    "awareness_source": "언파 상품 페이지(2026-11 검색 결과)",
+    "verify_url": "https://unpa.me/products/87583-acne-clear-toner-pads",
+    "release_ym": null,
+    "relaunch_ym": null,
+    "release_source": null,
+    "concerns": [
+      "acne"
+    ],
+    "concern_evidence": [
+      "https://unpa.me/products/87583-acne-clear-toner-pads"
+    ],
+    "concern_note": "제품명과 상품 소개가 트러블(여드름) 케어용",
+    "status": "active",
+    "added_on": "2026-11-18",
+    "added_in": "v0.2",
+    "notes": "토너패드라 toner로 분류"
+  },
+  {
+    "product_id": "P0062",
+    "product_name": "AC클리닉 데일리 토너",
+    "name_needs_brand": false,
+    "brand_id": "B008",
+    "brand": "에뛰드",
+    "brand_aliases": [
+      {
+        "text": "ETUDE",
+        "verified": true,
+        "needs_context": false,
+        "evidence": "https://skinsli.com/products/etude-slightly-acidic-55-soothing-toner-500ml"
+      }
+    ],
+    "line": "AC클리닉",
+    "aliases": [
+      {
+        "text": "AC 클리닉 토너",
+        "verified": false,
+        "needs_brand": false
+      }
+    ],
+    "category": "toner",
+    "awareness_tier": "저언급",
+    "awareness_basis": "출시가 오래된 라인으로 최근 언급은 적을 것으로 본다",
+    "awareness_source": "작성자 판단",
+    "verify_url": "https://unpa.me/reviews/22568",
+    "release_ym": null,
+    "relaunch_ym": null,
+    "release_source": null,
+    "concerns": [
+      "acne"
+    ],
+    "concern_evidence": [
+      "https://unpa.me/reviews/33755"
+    ],
+    "concern_note": "같은 라인 제품명에 '아크네' 표기(데일리 아크네 폼클렌져)",
+    "status": "active",
+    "added_on": "2026-11-18",
+    "added_in": "v0.2",
+    "notes": "같은 라인에 '데일리 아크네 폼클렌져'가 있다"
+  },
+  {
+    "product_id": "P0063",
+    "product_name": "블랙 스네일 크림",
+    "name_needs_brand": false,
+    "brand_id": "B021",
+    "brand": "닥터지",
+    "brand_aliases": [
+      {
+        "text": "Dr.G",
+        "verified": false,
+        "needs_context": false
+      }
+    ],
+    "line": "블랙 스네일",
+    "aliases": [
+      {
+        "text": "블랙스네일 크림",
+        "verified": false,
+        "needs_brand": false
+      }
+    ],
+    "category": "cream",
+    "awareness_tier": "중간",
+    "awareness_basis": "브랜드 대표 라인 중 하나다",
+    "awareness_source": "작성자 판단",
+    "verify_url": "https://unpa.me/reviews/51248",
+    "release_ym": null,
+    "relaunch_ym": null,
+    "release_source": null,
+    "concerns": [
+      "acne"
+    ],
+    "concern_evidence": [
+      "https://www.hwahae.com/blog/?p=2222"
+    ],
+    "concern_note": "화해 블로그 여드름 흔적 케어 항목",
+    "status": "active",
+    "added_on": "2026-11-18",
+    "added_in": "v0.2",
+    "notes": "같은 라인 에멀전이 있다"
+  }
+]
