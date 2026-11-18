@@ -1,0 +1,235 @@
+[
+  {
+    "product_id": "P0001",
+    "product_name": "1025 독도 토너",
+    "name_needs_brand": false,
+    "brand_id": "B001",
+    "brand": "라운드랩",
+    "brand_aliases": [
+      {
+        "text": "ROUND LAB",
+        "verified": true,
+        "needs_context": false,
+        "evidence": "https://skinsli.com/products/round-lab-1025-dokdo-toner-300ml"
+      }
+    ],
+    "line": "1025 독도",
+    "aliases": [
+      {
+        "text": "독도 토너",
+        "verified": false,
+        "needs_brand": false
+      }
+    ],
+    "category": "toner",
+    "awareness_tier": "유명",
+    "awareness_basis": "출시가 오래됐고 토너 추천 영상·리뷰 사이트에 반복 등장한다",
+    "awareness_source": "작성자 판단",
+    "verify_url": "https://unpa.me/reviews/46522",
+    "release_ym": null,
+    "relaunch_ym": null,
+    "release_source": null,
+    "concerns": [],
+    "concern_evidence": [],
+    "concern_note": null,
+    "status": "active",
+    "added_on": "2026-11-18",
+    "added_in": "v0.1",
+    "notes": null
+  },
+  {
+    "product_id": "P0002",
+    "product_name": "어성초 77 수딩 토너",
+    "name_needs_brand": false,
+    "brand_id": "B002",
+    "brand": "아누아",
+    "brand_aliases": [
+      {
+        "text": "ANUA",
+        "verified": true,
+        "needs_context": false,
+        "evidence": "https://unpa.me/reviews/288499"
+      }
+    ],
+    "line": "어성초",
+    "aliases": [
+      {
+        "text": "어성초 77 토너",
+        "verified": false,
+        "needs_brand": false
+      },
+      {
+        "text": "어성초 토너",
+        "verified": true,
+        "needs_brand": true,
+        "evidence": "https://glowpick.com/products/117611/expression?expressionId=163",
+        "note": "아비브 어성초 카밍 토너 등 다른 어성초 토너와 겹친다"
+      }
+    ],
+    "category": "toner",
+    "awareness_tier": "유명",
+    "awareness_basis": "토너 비교 영상·리뷰 사이트에 반복 등장한다",
+    "awareness_source": "작성자 판단",
+    "verify_url": "https://unpa.me/reviews/288499",
+    "release_ym": null,
+    "relaunch_ym": null,
+    "release_source": null,
+    "concerns": [],
+    "concern_evidence": [],
+    "concern_note": null,
+    "status": "active",
+    "added_on": "2026-11-18",
+    "added_in": "v0.1",
+    "notes": null
+  },
+  {
+    "product_id": "P0005",
+    "product_name": "티트리 시카 수딩 토너",
+    "name_needs_brand": false,
+    "brand_id": "B005",
+    "brand": "브링그린",
+    "brand_aliases": [
+      {
+        "text": "BRING GREEN",
+        "verified": false,
+        "needs_context": false
+      }
+    ],
+    "line": "티트리 시카",
+    "aliases": [
+      {
+        "text": "티트리 시카 토너",
+        "verified": false,
+        "needs_brand": false
+      }
+    ],
+    "category": "toner",
+    "awareness_tier": "중간",
+    "awareness_basis": "리뷰 사이트에 리뷰가 꾸준하나 상위 랭킹 여부는 확인하지 못했다",
+    "awareness_source": "작성자 판단",
+    "verify_url": "https://unpa.me/reviews/2473",
+    "release_ym": null,
+    "relaunch_ym": null,
+    "release_source": null,
+    "concerns": [
+      "acne"
+    ],
+    "concern_evidence": [
+      "https://www.hwahae.com/blog/?p=2222"
+    ],
+    "concern_note": "화해 블로그 여드름 추천 목록(2025-08-21)에 포함",
+    "status": "active",
+    "added_on": "2026-11-18",
+    "added_in": "v0.1",
+    "notes": null
+  },
+  {
+    "product_id": "P0018",
+    "product_name": "노스카나인 트러블 세럼",
+    "name_needs_brand": false,
+    "brand_id": "B016",
+    "brand": "파티온",
+    "brand_aliases": [
+      {
+        "text": "FATION",
+        "verified": false,
+        "needs_context": false
+      }
+    ],
+    "line": "노스카나인",
+    "aliases": [
+      {
+        "text": "노스카나인 세럼",
+        "verified": false,
+        "needs_brand": false
+      }
+    ],
+    "category": "serum",
+    "awareness_tier": "중간",
+    "awareness_basis": "글로우픽 리뷰 653개(30ml), 300~1,000개 구간",
+    "awareness_source": "글로우픽 브랜드 페이지(2026-11 검색 결과)",
+    "verify_url": "https://unpa.me/reviews/311541",
+    "release_ym": null,
+    "relaunch_ym": null,
+    "release_source": null,
+    "concerns": [
+      "acne"
+    ],
+    "concern_evidence": [
+      "https://unpa.me/reviews/441123"
+    ],
+    "concern_note": "리뷰에서 여드름 피부 사용 맥락으로 언급",
+    "status": "active",
+    "added_on": "2026-11-18",
+    "added_in": "v0.1",
+    "notes": "'노스카나인 트러블 모공탄력 세럼'이 따로 있다"
+  },
+  {
+    "product_id": "P0009",
+    "product_name": "어린쑥 수분 진정수",
+    "name_needs_brand": false,
+    "brand_id": "B009",
+    "brand": "한율",
+    "brand_aliases": [
+      {
+        "text": "HANYUL",
+        "verified": false,
+        "needs_context": false
+      }
+    ],
+    "line": "어린쑥",
+    "aliases": [
+      {
+        "text": "어린쑥 진정수",
+        "verified": false,
+        "needs_brand": false
+      }
+    ],
+    "category": "toner",
+    "awareness_tier": "저언급",
+    "awareness_basis": "리뷰 사이트 리뷰가 적고 토너 추천 영상에서 대표 제품으로 보기 어렵다",
+    "awareness_source": "작성자 판단",
+    "verify_url": "https://unpa.me/reviews/69203",
+    "release_ym": null,
+    "relaunch_ym": null,
+    "release_source": null,
+    "concerns": [],
+    "concern_evidence": [],
+    "concern_note": null,
+    "status": "active",
+    "added_on": "2026-11-18",
+    "added_in": "v0.1",
+    "notes": null
+  },
+  {
+    "product_id": "P0026",
+    "product_name": "마데카 크림",
+    "name_needs_brand": true,
+    "brand_id": "B023",
+    "brand": "센텔리안24",
+    "brand_aliases": [
+      {
+        "text": "CENTELLIAN24",
+        "verified": false,
+        "needs_context": false
+      }
+    ],
+    "line": "마데카",
+    "aliases": [],
+    "category": "cream",
+    "awareness_tier": "중간",
+    "awareness_basis": "글로우픽 리뷰 454개, 1,000개 기준 미달",
+    "awareness_source": "글로우픽 브랜드 페이지(2026-11 검색 결과)",
+    "verify_url": "https://www.glowpick.com/brands/2157",
+    "release_ym": null,
+    "relaunch_ym": null,
+    "release_source": null,
+    "concerns": [],
+    "concern_evidence": [],
+    "concern_note": null,
+    "status": "active",
+    "added_on": "2026-11-18",
+    "added_in": "v0.1",
+    "notes": "글로우픽 표기는 '더 마데카 크림'. 타임 리버스, 골든 등 변형이 많아 긴 이름 우선 매칭이 필요하다"
+  }
+]
