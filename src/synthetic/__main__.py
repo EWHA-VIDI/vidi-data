@@ -1,10 +1,11 @@
 """합성 데이터 만들기.
 
     python -m src.synthetic --out data/synthetic/run01
-    python -m src.synthetic --out data/synthetic/run02 --seed 7 --campaigns 20 --videos 60
-    python -m src.synthetic --inject-dir data/raw/run01 --out data/synthetic/inject01
+    python -m src.synthetic --out data/synthetic/run02 --seed 7 --campaigns 20 --videos 60 --csv
+    python -m src.synthetic --inject-dir data/collected/schema_v1/<run>/shard_03 --out data/synthetic/inject01
 
-계정 ID 가명화가 필요하면 환경 변수 VIDI_HASH_KEY를 설정한다 (키는 커밋하지 않는다).
+실제 데이터에 심을 때는 수집과 같은 키를 환경 변수 DATA_PSEUDONYM_KEY로 준다 (키는 커밋하지 않는다).
+키가 없으면 합성 전용 키로 가명화한다.
 """
 
 from __future__ import annotations
@@ -27,21 +28,26 @@ def main(argv: list[str] | None = None) -> None:
     ap.add_argument("--accounts", type=int, default=3000)
     ap.add_argument("--campaigns", type=int, default=12)
     ap.add_argument("--decoys", type=int, default=4)
-    ap.add_argument("--inject-dir", help="videos.csv / channels.csv / comments.csv가 있는 폴더. 주면 군집만 심는다.")
+    ap.add_argument("--csv", action="store_true", help="검수용 CSV도 함께 저장")
+    ap.add_argument("--key-version", default="v1", help="DATA_PSEUDONYM_KEY를 쓸 때 manifest에 남길 키 버전")
+    ap.add_argument("--inject-dir", help="videos/channels/comments.parquet이 있는 폴더. 주면 군집만 심는다.")
     args = ap.parse_args(argv)
 
+    key = os.environ.get("DATA_PSEUDONYM_KEY") or None
     cfg = Config(
         seed=args.seed,
         n_videos=args.videos,
         n_organic_accounts=args.accounts,
         n_campaigns=args.campaigns,
         n_decoys=args.decoys,
-        hash_key=os.environ.get("VIDI_HASH_KEY") or None,
+        pseudonym_key=key,
+        pseudonym_key_version=args.key_version if key else "synthetic",
+        write_csv=args.csv,
     )
     products = load_products(args.products)
 
     if args.inject_dir:
-        read = lambda n: pd.read_csv(os.path.join(args.inject_dir, f"{n}.csv"))  # noqa: E731
+        read = lambda n: pd.read_parquet(os.path.join(args.inject_dir, f"{n}.parquet"))  # noqa: E731
         data = inject(read("videos"), read("channels"), read("comments"), products, cfg)
     else:
         data = generate(products, cfg)

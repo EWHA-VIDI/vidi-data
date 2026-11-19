@@ -6,25 +6,28 @@
 
 ```bash
 pip install -r requirements.txt
-python -m src.synthetic --out data/synthetic/run01            # 전부 합성
-python -m src.synthetic --inject-dir data/raw/run01 --out data/synthetic/inject01   # 기존 표에 군집만 심기
+python -m src.synthetic --out data/synthetic/run01                 # 전부 합성
+python -m src.synthetic --out data/synthetic/run01 --csv           # 검수용 CSV도 저장
+python -m src.synthetic --inject-dir data/collected/schema_v1/<run>/shard_03 --out data/synthetic/inject01   # 기존 표에 군집만 심기
 pytest
 ```
 
-계정 ID를 가명화하려면 `VIDI_HASH_KEY` 환경 변수를 설정한다 (HMAC-SHA256, 64자). 키는 커밋하지 않는다.
-
-## 출력
+## 출력 (공통 규격 v1)
 
 | 파일 | 내용 |
 |---|---|
-| `videos.csv` | video_id, channel_id, title, uploaded_at |
-| `channels.csv` | channel_id, channel_created_at, subscriber_count |
-| `comments.csv` | comment_id, video_id, author_channel_id, parent_comment_id, content, like_count, written_at |
+| `videos.parquet` | video_id, channel_id, title, description, published_at, duration_seconds, view_count, like_count, comment_count, collected_at |
+| `channels.parquet` | channel_id, published_at, subscriber_count, video_count, view_count, collected_at |
+| `comments.parquet` | comment_id, video_id, author_channel_id, parent_comment_id, text, published_at, updated_at, like_count, reply_count, collected_at |
+| `manifest.json` | schema_version, run_id, synthetic, pseudonym_key_version, collected_at, row_counts |
 | `labels.json` | `clusters`(심은 군집 정답), `decoys`(유명 제품 칭찬 묶음, 오탐 함정), 생성 설정 |
 
-- 시간은 UTC ISO 8601 (`2026-10-01T03:00:00Z`)
-- 정답은 `labels.json`에만 있다. 탐지 코드는 CSV만 읽는다.
-- 컬럼 이름은 공통 스키마(VIDI-45) 확정 후 `Config.columns`로 맞춘다.
+- Parquet(zstd), 시간은 `timestamp[us, UTC]`. `--csv`를 주면 같은 이름의 CSV도 저장한다 (시간은 `...Z` 표기).
+- 답글: `parent_comment_id`로 최상위 댓글 연결. 최상위 댓글의 `reply_count`는 답글 수, 답글 행은 null.
+- ID: 영상 ID는 원문, 채널·댓글 ID는 `ch_`/`cm_` + HMAC-SHA256(키, `channel:`/`comment:` + 원본) 64자.
+  - 키는 환경 변수 `DATA_PSEUDONYM_KEY`. 없으면 합성 전용 키를 쓰고 manifest에 `pseudonym_key_version: synthetic`으로 남긴다.
+  - `inject()`에서 이미 가명화된 ID(`ch_`, `cm_`)는 다시 바꾸지 않는다. 실제 데이터에 심을 때는 수집과 같은 키를 준다.
+- 정답은 `labels.json`에만 있다. 탐지 코드는 데이터 파일만 읽는다.
 
 ## 군집 설계
 
