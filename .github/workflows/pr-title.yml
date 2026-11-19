@@ -1,0 +1,41 @@
+name: PR Title
+
+on:
+  pull_request:
+    branches: [main]
+    types: [opened, edited, synchronize, reopened, ready_for_review]
+
+permissions: {}
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      # PR 제목이 type(scope)!: 작업 내용 [VIDI-번호] 형식인지 검사한다.
+      - name: Validate PR title
+        env:
+          PR_TITLE: ${{ github.event.pull_request.title }}
+        run: |
+          node - <<'EOF'
+          const types = ['feat', 'fix', 'style', 'refactor', 'docs', 'test', 'chore',
+            'build', 'ci', 'perf', 'revert', 'infra', 'release']
+          // type, 선택 scope, 선택 !, 콜론 뒤 공백, 작업 내용, 끝의 Jira 키 하나
+          const pattern = new RegExp(
+            `^(${types.join('|')})(?:\\([a-z0-9][a-z0-9-]*\\))?!?: ([^\\r\\n]+) \\[VIDI-[1-9]\\d*\\]$`,
+          )
+          const title = process.env.PR_TITLE ?? ''
+          const match = pattern.exec(title)
+          // 120자 이내, 앞뒤 공백 없음, 작업 내용 끝에 마침표 없음, Jira 키는 하나
+          const ok = Boolean(
+            match &&
+            title.length <= 120 &&
+            title === title.trim() &&
+            match[2].trim() === match[2] &&
+            !match[2].endsWith('.') &&
+            (title.match(/VIDI-\d+/g) ?? []).length === 1,
+          )
+          if (!ok) {
+            console.error('type(scope): 작업 내용 [VIDI-123] 형식을 사용한다. scope는 선택이며 Jira 키는 하나만 사용한다.')
+            process.exit(1)
+          }
+          EOF
