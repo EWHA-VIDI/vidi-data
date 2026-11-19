@@ -34,9 +34,8 @@ class PseudonymTests(unittest.TestCase):
         )
 
     def test_no_fallback_or_key_in_repr(self):
-        with patch.dict(os.environ, {}, clear=True):
-            with self.assertRaises(ValueError):
-                Pseudonymizer.from_environment()
+        with patch.dict(os.environ, {}, clear=True), self.assertRaises(ValueError):
+            Pseudonymizer.from_environment()
         with self.assertRaises(ValueError):
             Pseudonymizer(b"short")
         self.assertNotIn(self.key.decode(), repr(self.ids))
