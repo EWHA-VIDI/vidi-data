@@ -1,10 +1,10 @@
 """수집 직후 사용하는 공통 HMAC 규칙; 원본-ID 매핑은 저장하지 않는다."""
 
-from dataclasses import dataclass, field
 import hashlib
 import hmac
 import os
 import re
+from dataclasses import dataclass, field
 
 
 @dataclass(frozen=True)
@@ -23,7 +23,9 @@ class Pseudonymizer:
         value = os.environ.get("DATA_PSEUDONYM_KEY")
         if not value:
             raise ValueError("DATA_PSEUDONYM_KEY를 안전하게 주입해야 합니다")
-        return cls(value.encode("utf-8"), os.environ.get("DATA_PSEUDONYM_KEY_VERSION", "v1"))
+        return cls(
+            value.encode("utf-8"), os.environ.get("DATA_PSEUDONYM_KEY_VERSION", "v1")
+        )
 
     def _digest(self, raw_id: str | None, kind: str, prefix: str) -> str | None:
         if raw_id is None:
@@ -32,7 +34,7 @@ class Pseudonymizer:
             raise ValueError("원본 ID는 비어 있지 않은 문자열이어야 합니다")
         if raw_id.startswith(("ch_", "cm_")):
             raise ValueError("이미 가명화된 ID를 원본으로 다시 처리하지 않습니다")
-        message = f"{kind}:{raw_id}".encode("utf-8")
+        message = f"{kind}:{raw_id}".encode()
         return prefix + hmac.new(self.key, message, hashlib.sha256).hexdigest()
 
     def channel_id(self, raw_id: str | None) -> str | None:
