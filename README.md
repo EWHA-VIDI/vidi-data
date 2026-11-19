@@ -30,3 +30,7 @@ with open("resources/product_dict.json", encoding="utf-8") as f:
 | `unknown` | 판매 여부를 확인하지 못함. 시도한 내용은 `status_note`에 있음 | 함 |
 | `discontinued` | 단종. 댓글에 계속 나오므로 남김 | 함 |
 | `retired` | 사전 범위에서 뺀 제품. ID 재사용을 막으려고 남김 | 안 함 |
+
+## 데이터 수집 규격
+
+- [저장 형식·S3 공유 경로·재수집·보관 기한](docs/data/storage.md) (VIDI-43)
