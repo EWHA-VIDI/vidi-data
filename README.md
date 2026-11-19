@@ -30,3 +30,13 @@ with open("resources/product_dict.json", encoding="utf-8") as f:
 | `unknown` | 판매 여부를 확인하지 못함. 시도한 내용은 `status_note`에 있음 | 함 |
 | `discontinued` | 단종. 댓글에 계속 나오므로 남김 | 함 |
 | `retired` | 사전 범위에서 뺀 제품. ID 재사용을 막으려고 남김 | 안 함 |
+
+## 공통 수집 스키마
+
+[규격 v1과 API 응답 변환·Parquet 저장 방법](docs/data/schema-v1.md)을 따른다 (VIDI-45).
+ID 생성은 VIDI-44의 가명 처리 모듈, 저장·S3 경로는 VIDI-43의 규칙을 따른다.
+
+```bash
+python -m pip install -r requirements.txt
+python -m unittest discover -s tests -p 'test_collection_schema.py' -v
+```
