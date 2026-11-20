@@ -141,3 +141,21 @@ def test_inject는_기존_데이터를_유지하고_다시_가명화하지_않�
     assert set(comments.comment_id) <= set(injected.comments.comment_id)
     assert len(injected.clusters) == 3
     assert injected.comments.comment_id.is_unique
+
+
+def test_심을_제품이_없으면_유명_제품으로_대신하지_않는다(products, small_cfg):
+    with pytest.raises(ValueError):
+        generate(products, replace(small_cfg, planted_tiers=("없는등급",)))
+
+
+def test_군집_계정이_구독자_수나_계정_나이만으로_드러나지_않는다(data):
+    ch = data.channels.set_index("channel_id")
+    planted = {a for c in data.clusters for a in c["account_ids"]}
+    commenters = set(data.comments.author_channel_id)
+    organic = list(commenters - planted)
+    # 구독자 수: 같은 분포 (0~49, 일부 null)
+    assert ch.loc[list(planted), "subscriber_count"].dropna().max() > 4
+    # 계정 나이: 일반 계정에도 최근 생성 계정이 섞여 있다
+    ref = data.videos.published_at.min()
+    age = (ref - pd.to_datetime(ch.loc[organic, "published_at"], utc=True)).dt.days
+    assert (age < 60).any()

@@ -90,6 +90,7 @@ class Config:
     organic_comments_per_video: tuple[int, int] = (80, 300)
     mention_ratio: float = 0.35  # 일반 댓글 중 제품을 언급하는 비율
     organic_reply_ratio: float = 0.15
+    organic_fresh_ratio: float = 0.1  # 일반 계정 중 최근(3~60일) 생성 계정 비율
     edited_ratio: float = 0.03  # 수정된 댓글 비율 (updated_at)
     # 오탐 함정: 유명 제품을 자연스럽게 칭찬하는 댓글 묶음 (labels.decoys)
     n_decoys: int = 4
@@ -167,6 +168,16 @@ class _Builder:
         )
         return cid
 
+    def organic_created_at(self, ref: datetime) -> datetime:
+        """일반 계정 생성일. 일부는 최근 계정이라 '신규 계정 = 바이럴'이 그대로 성립하지 않게 한다."""
+        if self.rng.random() < self.cfg.organic_fresh_ratio:
+            return ref - timedelta(days=self.rng.randint(3, 60))
+        return ref - timedelta(days=int(self.nrng.integers(200, 3000)))
+
+    def commenter_subscribers(self) -> int | None:
+        """댓글 작성자 구독자 수. 일반·군집 계정이 같은 분포를 쓴다 (비공개는 null)."""
+        return None if self.rng.random() < 0.3 else int(self.nrng.integers(0, 50))
+
     def pick_product(self, pool: list[Product]) -> Product:
         weights = np.array([p.weight for p in pool])
         return pool[int(self.nrng.choice(len(pool), p=weights / weights.sum()))]
@@ -197,10 +208,7 @@ class _Builder:
             self.collected_at = max(v["published_at"] for v in videos) + timedelta(days=14)
 
         accounts = [
-            self.add_channel(
-                cfg.start - timedelta(days=int(nrng.integers(200, 3000))),
-                None if rng.random() < 0.3 else int(nrng.integers(0, 50)),  # 비공개 구독자 수는 null
-            )
+            self.add_channel(self.organic_created_at(cfg.start), self.commenter_subscribers())
             for _ in range(cfg.n_organic_accounts)
         ]
         for v in videos:
@@ -235,7 +243,9 @@ class _Builder:
     # -- 군집 심기 ---------------------------------------------------------
     def plant(self, videos: list[dict]) -> None:
         cfg, rng, nrng = self.cfg, self.rng, self.nrng
-        pool = [p for p in self.products if p.tier in cfg.planted_tiers] or self.products
+        pool = [p for p in self.products if p.tier in cfg.planted_tiers]
+        if not pool:
+            raise ValueError(f"군집을 심을 제품이 없습니다 (planted_tiers={cfg.planted_tiers})")
         levels, probs = zip(*cfg.difficulty_mix.items())
         probs = np.array(probs, dtype=float) / sum(probs)
         offset = len(self.clusters)
@@ -250,7 +260,7 @@ class _Builder:
             for _ in range(rng.randint(*d["accounts"])):
                 fresh = rng.random() < d["fresh_ratio"]
                 age = rng.randint(3, 60) if fresh else rng.randint(200, 2000)
-                accounts.append(self.add_channel(targets[0]["published_at"] - timedelta(days=age), int(nrng.integers(0, 5)), videos=0))
+                accounts.append(self.add_channel(targets[0]["published_at"] - timedelta(days=age), self.commenter_subscribers()))
 
             members: list[str] = []
             tops: list[tuple[str, dict, str, datetime]] = []
