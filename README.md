@@ -41,3 +41,14 @@ with open("resources/product_dict.json", encoding="utf-8") as f:
 | `unknown` | 판매 여부를 확인하지 못함. 시도한 내용은 `status_note`에 있음 | 함 |
 | `discontinued` | 단종. 댓글에 계속 나오므로 남김 | 함 |
 | `retired` | 사전 범위에서 뺀 제품. ID 재사용을 막으려고 남김 | 안 함 |
+
+## 댓글 수집기 실행
+
+[실행·호출 예산·중단 후 재개 안내](docs/data/collector.md)를 따른다.
+동결된 마스터 목록을 입력하며 검색은 다시 수행하지 않는다.
+VIDI-44의 가명 처리 모듈이 먼저 필요하며 실제 키는 환경변수로만 전달한다.
+
+```bash
+python -m src.collection --help
+python -m unittest discover -s tests -v
+```
